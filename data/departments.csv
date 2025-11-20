@@ -1,0 +1,710 @@
+dept_id,dept_name,dept_category,division,dept_type,dept_age_years,location_type,team_size,reporting_structure,manager_experience_level,supervisor_experience_level,primary_function,secondary_function,creation_reason,oversight_body,reporting_lag_days,training_hours_quarterly,violations_past_3years,remediation_plan_active,executive_support,external_consulting,engagement_programs,onboarding_program,improvement_commitment,digital_systems,external_partnerships,interdept_collaboration_score,resource_availability_score,external_interactions_frequency,risk_exposure_operational,risk_exposure_financial,operational_health_index,reporting_gaps_annual,audit_score_q1,audit_score_q2,compliance_score_final,overall_risk_score
+DEPT-1620,Core Compliance,Financial_Reporting,Corporate_HQ,Operations,8.0,Remote,Large,Centralized,2.0,2.0,Other,Other,Restructuring,Internal_Audit,1.0,,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,,3.0,2.0,3.0,1.0,,5.0,,55.0,55.0,65.0,12.0
+DEPT-1133,Digital Governance,Financial_Reporting,Corporate_HQ,Compliance,8.0,Urban,Large,Centralized,2.0,2.0,Other,Administrative,Regulation,,1.0,20.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,4.0,4.0,,2.0,2.0,1.0,26.0,,40.0,,43.0
+DEPT-4917,Central Hub,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6959,Compliance - Legacy Region,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Large,Centralized,4.0,3.0,Other,Other,Regulation,Internal_Audit,1.0,60.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,4.0,3.0,4.0,1.0,1.0,5.0,2.0,70.0,75.0,85.0,11.0
+DEPT-4312,West Internal Controls,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Small,Centralized,1.0,,Other,Other,Restructuring,Internal_Audit,2.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,4.0,2.0,1.0,1.0,5.0,2.0,45.0,45.0,45.0,11.0
+DEPT-3347,Business Integrity - Central Region,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Small,Centralized,2.0,1.0,Administrative,Other,Regulation,,1.0,20.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,4.0,4.0,4.0,3.0,5.0,5.0,6.0,45.0,50.0,50.0,53.0
+DEPT-2437,Tactical Ethics and Compliance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7949,Internal Controls - Tactical Region,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,Centralized,1.0,1.0,,Other,Restructuring,External_Auditor,1.0,40.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,1.0,0.0,4.0,3.0,2.0,2.0,3.0,,2.0,65.0,60.0,60.0,26.0
+DEPT-2554,Central Team,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Small,Autonomous,3.0,3.0,Other,,Merger,Internal_Audit,1.0,20.0,0.0,,0.0,0.0,0.0,1.0,1.0,1.0,0.0,,3.0,4.0,4.0,4.0,1.0,0.0,65.0,60.0,65.0,40.0
+DEPT-3264,Premier Hub,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7536,East Operations,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3151,Compliance - East Region,Financial_Reporting,Corporate_HQ,,8.0,Urban,Small,Centralized,3.0,3.0,Operations,Finance,Restructuring,External_Auditor,1.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,,3.0,2.0,4.0,,4.0,4.0,10.0,50.0,50.0,50.0,35.0
+DEPT-3953,Compliance - Emerging Region,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Small,Centralized,2.0,2.0,Administrative,Other,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,0.0,,1.0,,0.0,4.0,3.0,4.0,1.0,2.0,2.0,6.0,65.0,55.0,55.0,18.0
+DEPT-1061,Compliance - Legacy Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5245,Internal Controls - South Region,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Large,Centralized,2.0,1.0,Operations,,Expansion,Internal_Audit,1.0,40.0,3.0,0.0,,0.0,1.0,1.0,,1.0,1.0,5.0,4.0,5.0,1.0,,5.0,10.0,50.0,45.0,40.0,55.0
+DEPT-9066,Global Audit Services,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7627,Alpha Compliance,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Small,Centralized,4.0,3.0,Compliance,Operations,Regulation,Internal_Audit,3.0,40.0,0.0,,1.0,0.0,1.0,1.0,1.0,,0.0,5.0,4.0,3.0,1.0,2.0,1.0,2.0,80.0,75.0,80.0,16.0
+DEPT-2895,Central Services,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Autonomous,3.0,4.0,,Other,Regulation,External_Auditor,1.0,20.0,0.0,,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,2.0,,1.0,4.0,5.0,12.0,75.0,65.0,70.0,31.0
+DEPT-8602,Process Excellence - South Region,Financial_Reporting,Corporate_HQ,Support,7.0,,Large,Centralized,2.0,1.0,Administrative,Operations,Expansion,Internal_Audit,,,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,,4.0,2.0,5.0,1.0,2.0,5.0,0.0,55.0,50.0,55.0,15.0
+DEPT-4790,Central Business Integrity,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,4.0,,Compliance,Finance,Restructuring,Internal_Audit,1.0,60.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,,,4.0,2.0,4.0,4.0,0.0,70.0,65.0,65.0,30.0
+DEPT-1003,Process Excellence - Elite Region,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Large,Centralized,1.0,,Other,Other,Restructuring,Internal_Audit,2.0,,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,5.0,4.0,4.0,1.0,1.0,4.0,0.0,60.0,65.0,65.0,
+DEPT-3374,Internal Controls - Prime Region,Financial_Reporting,Corporate_HQ,Support,5.0,Remote,Large,Centralized,1.0,1.0,Other,Other,Regulation,Internal_Audit,3.0,20.0,1.0,,0.0,0.0,1.0,,1.0,1.0,1.0,5.0,5.0,,1.0,1.0,1.0,2.0,40.0,,45.0,21.0
+DEPT-2904,Ethics and Compliance - Elite Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4742,Process Excellence - Elite Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8796,Strategic Department,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,1.0,1.0,Administrative,,Expansion,Internal_Audit,1.0,60.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,,3.0,4.0,1.0,1.0,5.0,12.0,60.0,60.0,60.0,16.0
+DEPT-1168,Regulatory Affairs - East Region,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,Centralized,1.0,2.0,Administrative,Operations,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,0.0,0.0,0.0,0.0,,1.0,0.0,3.0,,3.0,1.0,2.0,1.0,0.0,70.0,70.0,70.0,15.0
+DEPT-7076,Compliance - West Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2644,Compliance - Core Region,Financial_Reporting,Corporate_HQ,Operations,,Urban,Small,Autonomous,3.0,2.0,Compliance,Operations,Restructuring,Internal_Audit,1.0,20.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,4.0,4.0,3.0,,3.0,18.0,65.0,65.0,65.0,44.0
+DEPT-8610,Beta Risk Management,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9887,Premier Operations,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,2.0,1.0,Other,Other,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,,0.0,1.0,4.0,3.0,5.0,,1.0,5.0,0.0,65.0,60.0,60.0,10.0
+DEPT-7569,Business Integrity - West Region,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,Large,Centralized,2.0,1.0,Operations,Operations,Expansion,,1.0,60.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,2.0,4.0,1.0,3.0,2.0,0.0,70.0,75.0,75.0,20.0
+DEPT-4301,South Ethics and Compliance,Financial_Reporting,Corporate_HQ,Support,5.0,Remote,Large,Centralized,1.0,1.0,Other,Other,Expansion,,1.0,40.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,,3.0,4.0,2.0,4.0,5.0,2.0,65.0,55.0,55.0,31.0
+DEPT-5732,Internal Controls - Metro Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,2.0,2.0,Other,Other,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,5.0,4.0,5.0,1.0,2.0,5.0,,60.0,,70.0,
+DEPT-7733,Audit Services - Global Region,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,Centralized,1.0,1.0,Administrative,Other,Regulation,Internal_Audit,3.0,20.0,0.0,0.0,1.0,0.0,1.0,,1.0,,1.0,4.0,3.0,3.0,1.0,2.0,4.0,6.0,55.0,60.0,65.0,
+DEPT-1237,Alpha Solutions,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Large,Centralized,3.0,,Other,Other,Regulation,Internal_Audit,1.0,20.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,5.0,,4.0,,1.0,1.0,4.0,55.0,60.0,70.0,12.0
+DEPT-8808,Compliance - Core Region,Risk_Management,Regional_Operations,,15.0,International,Small,Autonomous,3.0,,Technology,,Regulation,Internal_Audit,2.0,19.0,4.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0,1.0,1.0,2.0,5.0,4.0,22.0,87.7,,82.7,86.0
+DEPT-1070,Elite Risk Management,Financial_Reporting,Corporate_HQ,Operations,6.0,,Small,Centralized,3.0,,Compliance,Other,Restructuring,External_Auditor,3.0,20.0,,0.0,,0.0,1.0,1.0,1.0,1.0,0.0,3.0,3.0,4.0,3.0,5.0,3.0,16.0,50.0,55.0,60.0,48.0
+DEPT-9383,Risk Management - Regional Region,Operational_Compliance,Regional_Operations,Compliance,13.0,Urban,Medium,Hybrid,4.0,2.0,,Compliance,Regulation,Internal_Audit,2.0,86.0,5.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,5.0,2.0,3.0,,1.0,0.0,,100.0,100.0,75.0
+DEPT-1273,Regulatory Affairs - Alpha Region,Financial_Reporting,Corporate_HQ,Support,5.0,Remote,Large,Centralized,2.0,2.0,,,Expansion,Internal_Audit,1.0,20.0,0.0,,1.0,,,1.0,1.0,0.0,0.0,,3.0,1.0,1.0,1.0,2.0,8.0,70.0,65.0,60.0,14.0
+DEPT-1766,Innovation Governance,Financial_Reporting,Corporate_HQ,Operations,,Urban,,,,1.0,Other,Other,Restructuring,Internal_Audit,2.0,20.0,3.0,1.0,1.0,0.0,1.0,,,1.0,,,5.0,,1.0,1.0,3.0,0.0,45.0,45.0,50.0,40.0
+DEPT-8730,West Operations,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6450,Governance - Prime Region,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Small,Centralized,4.0,3.0,Other,Other,Restructuring,Compliance_Officer,2.0,40.0,0.0,0.0,,0.0,0.0,1.0,1.0,1.0,1.0,4.0,4.0,5.0,1.0,,2.0,0.0,65.0,70.0,70.0,15.0
+DEPT-2773,Governance - Legacy Region,Financial_Reporting,Corporate_HQ,Operations,7.0,Urban,Large,Centralized,3.0,3.0,Operations,Operations,Merger,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,,1.0,1.0,1.0,1.0,4.0,3.0,4.0,2.0,3.0,4.0,6.0,55.0,65.0,70.0,28.0
+DEPT-4878,Quality Assurance - Innovation Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1344,Innovation Department,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,Centralized,,4.0,Operations,Compliance,Merger,External_Auditor,1.0,40.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,1.0,0.0,4.0,4.0,4.0,1.0,1.0,3.0,2.0,65.0,60.0,60.0,
+DEPT-6205,Beta Business Integrity,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9897,Core Ethics and Compliance,Financial_Reporting,Corporate_HQ,Support,,Remote,Large,Centralized,3.0,1.0,Other,Other,Expansion,Internal_Audit,,40.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,5.0,3.0,3.0,1.0,1.0,4.0,4.0,40.0,40.0,40.0,12.0
+DEPT-4098,East Department,Financial_Reporting,Corporate_HQ,Operations,2.0,International,Medium,,1.0,,Legal,,Expansion,,5.0,63.0,2.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,4.0,5.0,3.0,2.0,2.0,,74.8,83.2,84.9,48.0
+DEPT-6138,East Ethics and Compliance,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,,3.0,Other,Other,,Internal_Audit,1.0,60.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,5.0,3.0,2.0,1.0,2.0,5.0,2.0,50.0,45.0,45.0,
+DEPT-4645,Legacy Services,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1713,Tactical Quality Assurance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3003,Innovation Team,Risk_Management,Corporate_HQ,Technology,6.0,Remote,Large,Hybrid,1.0,2.0,Technology,Legal,,External_Auditor,2.0,72.0,1.0,1.0,,1.0,,0.0,0.0,0.0,0.0,,2.0,3.0,2.0,3.0,1.0,11.0,74.8,78.3,79.0,40.5
+DEPT-6824,Regulatory Affairs - Innovation Region,Financial_Reporting,Corporate_HQ,Support,,,,Centralized,1.0,1.0,Other,Other,Regulation,Compliance_Officer,3.0,60.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,5.0,5.0,4.0,3.0,5.0,12.0,50.0,50.0,55.0,41.0
+DEPT-6698,Internal Controls - Elite Region,Financial_Reporting,Corporate_HQ,Operations,7.0,Remote,,Centralized,2.0,1.0,Administrative,Other,Regulation,Internal_Audit,,20.0,,0.0,0.0,1.0,1.0,1.0,0.0,,1.0,3.0,3.0,2.0,2.0,2.0,5.0,8.0,40.0,40.0,45.0,34.0
+DEPT-9931,Emerging Governance,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,Centralized,,4.0,Compliance,Finance,Expansion,Internal_Audit,1.0,40.0,0.0,,1.0,0.0,,1.0,1.0,1.0,0.0,3.0,3.0,3.0,1.0,2.0,2.0,2.0,70.0,70.0,70.0,
+DEPT-8683,Financial Controls - Regional Region,Financial_Reporting,Corporate_HQ,Support,8.0,,Large,Centralized,3.0,,Operations,Operations,Restructuring,Internal_Audit,1.0,40.0,,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,5.0,3.0,4.0,1.0,1.0,4.0,8.0,50.0,55.0,60.0,14.0
+DEPT-1158,South Risk Management,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1622,Digital Services,Financial_Reporting,Corporate_HQ,Operations,7.0,Remote,Large,Centralized,1.0,3.0,Other,Other,,External_Auditor,3.0,40.0,,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,5.0,2.0,4.0,,4.0,5.0,,60.0,55.0,55.0,42.0
+DEPT-1444,Process Excellence - West Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9694,Business Integrity - Innovation Region,Risk_Management,Corporate_HQ,Compliance,,Suburban,Medium,Autonomous,2.0,2.0,Technology,Finance,Merger,External_Auditor,1.0,12.0,2.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,2.0,2.0,4.0,4.0,3.0,4.0,6.0,79.1,86.5,88.0,58.0
+DEPT-6841,Global Branch,Financial_Reporting,Corporate_HQ,,7.0,Urban,Large,Centralized,1.0,1.0,Other,Other,Expansion,External_Auditor,1.0,40.0,0.0,,0.0,,0.0,0.0,1.0,1.0,0.0,4.0,3.0,3.0,1.0,2.0,4.0,0.0,,60.0,60.0,15.0
+DEPT-1342,Regulatory Affairs - Regional Region,Financial_Reporting,Corporate_HQ,Operations,8.0,,Small,Autonomous,3.0,4.0,Other,Other,Expansion,Internal_Audit,2.0,,0.0,0.0,1.0,0.0,1.0,,,,0.0,4.0,2.0,5.0,3.0,4.0,1.0,6.0,75.0,80.0,80.0,38.0
+DEPT-2716,Metro Quality Assurance,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,4.0,2.0,Finance,,Restructuring,External_Auditor,1.0,,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,4.0,,,1.0,1.0,3.0,0.0,85.0,85.0,90.0,10.0
+DEPT-2619,Ethics and Compliance - Advanced Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7570,Beta Regulatory Affairs,Financial_Reporting,Corporate_HQ,Compliance,14.0,Suburban,Small,Autonomous,2.0,1.0,Legal,Legal,Restructuring,Board_Committee,2.0,26.0,1.0,0.0,,1.0,,1.0,1.0,0.0,0.0,1.0,4.0,3.0,1.0,3.0,5.0,4.0,81.7,,63.2,32.0
+DEPT-4459,Tactical Office,Financial_Reporting,Corporate_HQ,Support,8.0,Remote,Large,Centralized,2.0,2.0,Administrative,Other,Regulation,Internal_Audit,2.0,80.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,4.0,4.0,4.0,1.0,1.0,4.0,6.0,70.0,65.0,70.0,13.0
+DEPT-3591,South Solutions,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,3.0,2.0,Finance,Finance,Expansion,External_Auditor,1.0,80.0,0.0,,1.0,0.0,1.0,0.0,1.0,1.0,0.0,5.0,2.0,2.0,1.0,2.0,5.0,0.0,90.0,90.0,90.0,15.0
+DEPT-5308,Compliance - Metro Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7071,Tactical Risk Management,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Large,Centralized,2.0,2.0,Administrative,Administrative,Merger,Internal_Audit,1.0,60.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,3.0,3.0,1.0,2.0,,0.0,90.0,90.0,90.0,15.0
+DEPT-1822,Quality Assurance - Central Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5096,North Team,Financial_Reporting,Corporate_HQ,Finance,,Urban,Large,Centralized,4.0,4.0,Operations,Compliance,Merger,External_Auditor,1.0,60.0,0.0,0.0,1.0,0.0,,1.0,1.0,1.0,1.0,4.0,4.0,3.0,1.0,1.0,4.0,0.0,80.0,80.0,80.0,
+DEPT-3939,Premier Team,Financial_Reporting,Corporate_HQ,Technology,6.0,Suburban,Small,Autonomous,1.0,1.0,Finance,Compliance,Innovation,Board_Committee,5.0,69.0,0.0,0.0,1.0,1.0,0.0,,0.0,0.0,1.0,4.0,,3.0,2.0,4.0,1.0,17.0,83.7,82.4,82.2,38.5
+DEPT-7411,Emerging Regulatory Affairs,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9673,Regional Unit,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Small,Autonomous,2.0,2.0,Other,Other,Restructuring,Internal_Audit,1.0,20.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,3.0,1.0,2.0,1.0,1.0,1.0,8.0,55.0,45.0,50.0,24.0
+DEPT-7292,Business Integrity - Digital Region,Financial_Reporting,Corporate_HQ,Support,9.0,Urban,Large,Centralized,3.0,3.0,Other,Operations,,Compliance_Officer,1.0,40.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,,5.0,3.0,3.0,,16.0,55.0,60.0,60.0,38.0
+DEPT-5972,Risk Management - Advanced Region,Financial_Reporting,Corporate_HQ,Support,6.0,,Large,Centralized,2.0,2.0,Other,Other,Expansion,,1.0,80.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,,2.0,3.0,1.0,3.0,3.0,1.0,65.0,65.0,65.0,20.5
+DEPT-1396,Digital Regulatory Affairs,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,,Centralized,4.0,4.0,Operations,Operations,Expansion,Internal_Audit,2.0,40.0,0.0,0.0,1.0,,1.0,1.0,1.0,1.0,0.0,4.0,3.0,1.0,1.0,1.0,,2.0,,75.0,75.0,11.0
+DEPT-8422,South Regulatory Affairs,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,Large,Centralized,4.0,4.0,,Other,Regulation,Internal_Audit,1.0,60.0,0.0,0.0,,0.0,1.0,1.0,1.0,1.0,0.0,4.0,3.0,3.0,,,3.0,0.0,,70.0,65.0,20.0
+DEPT-2743,Compliance - Legacy Region,Financial_Reporting,Corporate_HQ,Operations,7.0,Urban,Large,Centralized,4.0,4.0,Operations,Compliance,,Internal_Audit,1.0,20.0,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,5.0,2.0,3.0,1.0,2.0,5.0,4.0,65.0,65.0,70.0,17.0
+DEPT-7180,Emerging Division,Financial_Reporting,Corporate_HQ,Support,6.0,,Large,Autonomous,3.0,1.0,Operations,Other,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,2.0,,3.0,2.0,2.0,4.0,2.0,55.0,55.0,,21.0
+DEPT-8535,Audit Services - Global Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8429,Legacy Department,Financial_Reporting,Corporate_HQ,,6.0,Urban,,Centralized,0.0,2.0,Other,Other,Merger,Internal_Audit,1.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,4.0,3.0,2.0,2.0,4.0,5.0,0.0,55.0,60.0,55.0,
+DEPT-7761,Core Governance,Financial_Reporting,Corporate_HQ,Support,7.0,Remote,Large,Centralized,4.0,3.0,Compliance,Other,Expansion,Internal_Audit,2.0,60.0,0.0,0.0,1.0,0.0,,1.0,1.0,1.0,1.0,4.0,4.0,2.0,1.0,1.0,4.0,0.0,55.0,60.0,60.0,10.0
+DEPT-9035,Metro Hub,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Autonomous,2.0,1.0,Other,Other,Merger,Internal_Audit,1.0,40.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,5.0,3.0,4.0,1.0,1.0,2.0,,60.0,65.0,60.0,11.0
+DEPT-5220,Internal Controls - Digital Region,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,Large,Centralized,2.0,1.0,Other,Other,Restructuring,Internal_Audit,1.0,40.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,,0.0,5.0,2.0,4.0,1.0,2.0,4.0,2.0,80.0,80.0,80.0,16.0
+DEPT-6192,Advanced Sector,Financial_Reporting,Corporate_HQ,Operations,,Urban,Small,Centralized,4.0,3.0,Compliance,Operations,Regulation,Internal_Audit,2.0,20.0,0.0,0.0,0.0,0.0,1.0,,,1.0,0.0,,2.0,3.0,1.0,2.0,,0.0,50.0,50.0,50.0,15.0
+DEPT-9694,Premier Unit,Financial_Reporting,Corporate_HQ,Support,5.0,Remote,Large,Centralized,3.0,3.0,Operations,Operations,Expansion,Compliance_Officer,2.0,60.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,4.0,2.0,1.0,2.0,3.0,3.0,2.0,65.0,,65.0,26.0
+DEPT-6321,Ethics and Compliance - Tactical Region,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,4.0,0.0,Compliance,Other,Regulation,Internal_Audit,,80.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,,3.0,4.0,3.0,1.0,1.0,1.0,0.0,60.0,55.0,55.0,10.0
+DEPT-7015,West Team,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Small,Centralized,1.0,1.0,Administrative,Other,Merger,Internal_Audit,1.0,40.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,3.0,2.0,2.0,3.0,3.0,,60.0,65.0,60.0,28.0
+DEPT-8849,Legacy Group,Risk_Management,Corporate_HQ,Technology,4.0,Remote,Large,Hybrid,2.0,2.0,Other,Operations,Innovation,Internal_Audit,4.0,99.0,1.0,0.0,0.0,,1.0,0.0,1.0,0.0,,4.0,5.0,2.0,2.0,,5.0,4.0,82.6,88.7,90.0,32.0
+DEPT-2333,Risk Management - Emerging Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4298,Alpha Business Integrity,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,2.0,3.0,Operations,Operations,Regulation,Internal_Audit,,40.0,0.0,0.0,0.0,0.0,,1.0,1.0,1.0,0.0,4.0,3.0,3.0,1.0,1.0,2.0,6.0,60.0,60.0,65.0,13.0
+DEPT-1177,Advanced Office,Financial_Reporting,Regional_Operations,Operations,6.0,International,Small,Centralized,1.0,1.0,Operations,Compliance,Expansion,Board_Committee,2.0,84.0,3.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,4.0,5.0,3.0,2.0,1.0,5.0,27.0,54.2,,65.6,58.5
+DEPT-5153,Ethics and Compliance - Advanced Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6021,Metro Unit,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,Small,Autonomous,4.0,4.0,Compliance,Compliance,Expansion,Internal_Audit,1.0,,0.0,0.0,1.0,0.0,1.0,,,1.0,0.0,5.0,4.0,3.0,1.0,,2.0,0.0,85.0,85.0,85.0,10.0
+DEPT-6557,Metro Financial Controls,Financial_Reporting,Corporate_HQ,Operations,6.0,Remote,Large,Centralized,,2.0,Compliance,Operations,Merger,Internal_Audit,1.0,20.0,0.0,0.0,1.0,0.0,,1.0,1.0,1.0,1.0,4.0,,3.0,3.0,4.0,3.0,8.0,50.0,45.0,55.0,39.0
+DEPT-8930,Legacy Operations,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6488,Advanced Compliance,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,Large,Centralized,4.0,2.0,Compliance,Other,Restructuring,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,4.0,3.0,2.0,1.0,4.0,5.0,2.0,75.0,80.0,80.0,26.0
+DEPT-6494,Compliance - Advanced Region,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Large,Centralized,2.0,1.0,,,,Internal_Audit,2.0,40.0,0.0,,1.0,0.0,1.0,1.0,1.0,1.0,0.0,5.0,3.0,,1.0,2.0,,2.0,60.0,60.0,75.0,16.0
+DEPT-9669,Ethics and Compliance - Central Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8968,Alpha Financial Controls,Financial_Reporting,Corporate_HQ,Support,,Remote,Large,,2.0,,Other,Other,Regulation,Compliance_Officer,2.0,40.0,,0.0,1.0,1.0,,,0.0,,,1.0,2.0,3.0,,2.0,2.0,8.0,50.0,60.0,60.0,19.0
+DEPT-1864,Governance - Central Region,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Small,Centralized,4.0,4.0,Finance,,Merger,Internal_Audit,1.0,60.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,5.0,4.0,5.0,1.0,,4.0,2.0,75.0,75.0,70.0,11.0
+DEPT-5319,Elite Ethics and Compliance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7028,Tactical Regulatory Affairs,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,,Centralized,2.0,1.0,Administrative,,Regulation,Internal_Audit,4.0,20.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,3.0,2.0,1.0,1.0,1.0,2.0,4.0,45.0,45.0,55.0,12.0
+DEPT-3484,Audit Services - Emerging Region,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,,Centralized,3.0,3.0,Other,Other,Restructuring,Internal_Audit,1.0,,0.0,0.0,1.0,,0.0,1.0,1.0,1.0,1.0,4.0,3.0,3.0,1.0,3.0,4.0,2.0,45.0,55.0,55.0,21.0
+DEPT-5006,Premier Services,Financial_Reporting,Corporate_HQ,Support,7.0,,,Centralized,2.0,4.0,Operations,Operations,Expansion,,1.0,40.0,0.0,0.0,,0.0,1.0,1.0,1.0,0.0,0.0,5.0,4.0,2.0,2.0,,5.0,0.0,85.0,90.0,85.0,25.0
+DEPT-7893,East Hub,Financial_Reporting,Corporate_HQ,Legal,8.0,Urban,Large,Centralized,4.0,4.0,Compliance,Operations,Restructuring,Internal_Audit,2.0,20.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,3.0,2.0,4.0,1.0,4.0,3.0,6.0,55.0,60.0,60.0,28.0
+DEPT-5218,Digital Solutions,Financial_Reporting,Regional_Operations,,10.0,Remote,Large,,1.0,0.0,Administrative,Other,Innovation,External_Auditor,5.0,44.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,,2.0,1.0,,2.0,2.0,7.0,66.0,71.6,72.7,43.5
+DEPT-1797,Regional Hub,Financial_Reporting,Corporate_HQ,,6.0,Remote,,Centralized,4.0,4.0,Finance,Compliance,Merger,Internal_Audit,,40.0,0.0,0.0,1.0,0.0,1.0,,1.0,,0.0,2.0,4.0,4.0,2.0,3.0,4.0,,85.0,80.0,80.0,25.0
+DEPT-2147,Alpha Division,Financial_Reporting,Corporate_HQ,Support,8.0,Remote,Small,,1.0,1.0,Administrative,Other,Expansion,Internal_Audit,2.0,80.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,5.0,,2.0,1.0,1.0,3.0,2.0,85.0,85.0,90.0,11.0
+DEPT-2460,Quality Assurance - East Region,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,4.0,4.0,Finance,Operations,Restructuring,Internal_Audit,1.0,40.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,5.0,4.0,2.0,3.0,4.0,5.0,0.0,50.0,55.0,55.0,35.0
+DEPT-7691,Governance - Premier Region,Financial_Reporting,Corporate_HQ,Support,5.0,Remote,Small,Centralized,,1.0,Other,,Expansion,External_Auditor,2.0,,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,4.0,4.0,2.0,,3.0,3.0,,75.0,75.0,75.0,28.0
+DEPT-6826,Regional Department,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,4.0,4.0,Finance,Other,Expansion,External_Auditor,1.0,40.0,0.0,0.0,1.0,0.0,,1.0,1.0,1.0,0.0,4.0,2.0,4.0,2.0,4.0,1.0,0.0,65.0,65.0,70.0,30.0
+DEPT-6506,North Business Integrity,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3404,Emerging Solutions,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Small,Centralized,2.0,2.0,Other,Administrative,Regulation,External_Auditor,2.0,40.0,1.0,1.0,,0.0,1.0,,1.0,1.0,0.0,4.0,3.0,3.0,2.0,2.0,5.0,14.0,50.0,55.0,55.0,37.0
+DEPT-4248,Compliance - Central Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Small,Centralized,4.0,2.0,,Operations,,,,80.0,0.0,,1.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,,,1.0,1.0,4.0,2.0,,,85.0,11.0
+DEPT-2792,Elite Department,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,3.0,1.0,Other,Other,Expansion,External_Auditor,2.0,80.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,3.0,2.0,,1.0,5.0,2.0,65.0,55.0,,11.0
+DEPT-1953,South Office,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Small,Centralized,4.0,4.0,,Compliance,,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,5.0,2.0,1.0,2.0,3.0,0.0,55.0,50.0,55.0,15.0
+DEPT-2656,Strategic Quality Assurance,Financial_Reporting,Corporate_HQ,Legal,8.0,Urban,Large,Centralized,2.0,2.0,Other,Other,Regulation,Internal_Audit,1.0,20.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,4.0,3.0,5.0,2.0,4.0,5.0,2.0,50.0,50.0,50.0,31.0
+DEPT-4898,Beta Risk Management,Financial_Reporting,Corporate_HQ,Finance,,Remote,,Centralized,0.0,4.0,Legal,Legal,Innovation,Internal_Audit,3.0,21.0,0.0,0.0,1.0,0.0,0.0,1.0,,,0.0,1.0,2.0,4.0,4.0,1.0,2.0,10.0,86.2,92.7,94.0,
+DEPT-6612,Regional Compliance,Financial_Reporting,Corporate_HQ,,6.0,,Large,Centralized,2.0,3.0,Other,Other,Expansion,Internal_Audit,,40.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,0.0,,4.0,4.0,,1.0,3.0,4.0,,55.0,60.0,60.0,22.0
+DEPT-5313,Quality Assurance - Alpha Region,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Autonomous,3.0,3.0,Other,Other,Regulation,Compliance_Officer,2.0,20.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,1.0,1.0,,3.0,2.0,,1.0,5.0,4.0,45.0,45.0,50.0,12.0
+DEPT-6883,Regulatory Affairs - Strategic Region,Risk_Management,Corporate_HQ,Operations,8.0,Suburban,Small,Centralized,4.0,0.0,Legal,Administrative,,,3.0,40.0,4.0,,0.0,1.0,0.0,1.0,1.0,1.0,1.0,3.0,3.0,2.0,2.0,2.0,4.0,14.0,77.6,79.5,79.8,67.0
+DEPT-4659,Quality Assurance - Tactical Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8889,East Unit,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2357,Ethics and Compliance - Beta Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7170,Digital Risk Management,Financial_Reporting,Corporate_HQ,Technology,7.0,Urban,Small,Centralized,4.0,4.0,Other,Compliance,Restructuring,External_Auditor,2.0,20.0,0.0,0.0,0.0,0.0,0.0,1.0,,1.0,0.0,4.0,1.0,1.0,2.0,2.0,5.0,0.0,60.0,65.0,65.0,20.0
+DEPT-9958,Innovation Department,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,,Centralized,2.0,4.0,Operations,Operations,Regulation,External_Auditor,1.0,40.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,,4.0,3.0,,1.0,1.0,5.0,8.0,70.0,,80.0,
+DEPT-2916,Regulatory Affairs - Digital Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4992,Strategic Quality Assurance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6539,North Office,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5019,Audit Services - Regional Region,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Small,Centralized,2.0,2.0,Other,Other,,Internal_Audit,1.0,40.0,0.0,0.0,,0.0,0.0,1.0,1.0,1.0,,,4.0,,1.0,1.0,3.0,0.0,65.0,60.0,65.0,10.0
+DEPT-5408,Core Office,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,4.0,4.0,Operations,Compliance,Restructuring,Internal_Audit,2.0,,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,2.0,4.0,2.0,3.0,,30.0,70.0,75.0,80.0,
+DEPT-5560,South Compliance,Financial_Reporting,Corporate_HQ,Operations,7.0,Urban,Large,Centralized,2.0,1.0,Other,Other,,,1.0,20.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,5.0,4.0,,1.0,2.0,5.0,22.0,45.0,35.0,30.0,26.0
+DEPT-3427,Strategic Financial Controls,Risk_Management,Corporate_HQ,Operations,15.0,Remote,Small,Hybrid,4.0,1.0,Finance,Administrative,Regulation,External_Auditor,5.0,89.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,3.0,2.0,5.0,,,1.0,30.0,52.7,54.1,54.3,
+DEPT-6097,Financial Controls - Elite Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7719,Elite Regulatory Affairs,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Small,Autonomous,2.0,1.0,Other,Other,Regulation,Internal_Audit,3.0,20.0,0.0,,1.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,2.0,2.0,1.0,2.0,5.0,,,50.0,55.0,19.0
+DEPT-2401,Business Integrity - Alpha Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4589,West Quality Assurance,Financial_Reporting,Corporate_HQ,Operations,,Urban,Small,Centralized,4.0,4.0,Compliance,Other,Restructuring,Compliance_Officer,,20.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,,1.0,5.0,4.0,3.0,2.0,4.0,5.0,8.0,50.0,55.0,55.0,34.0
+DEPT-4544,Audit Services - Metro Region,Financial_Reporting,Corporate_HQ,Operations,5.0,Remote,Large,Centralized,4.0,4.0,Other,Other,Restructuring,External_Auditor,4.0,,0.0,,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,3.0,5.0,3.0,5.0,1.0,8.0,60.0,50.0,55.0,
+DEPT-5625,Tactical Audit Services,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,,,1.0,1.0,Administrative,Administrative,Regulation,Internal_Audit,1.0,60.0,0.0,0.0,1.0,0.0,1.0,1.0,,1.0,1.0,4.0,3.0,2.0,1.0,2.0,4.0,10.0,55.0,50.0,,20.0
+DEPT-2092,Prime Risk Management,Financial_Reporting,Corporate_HQ,Support,,Urban,Large,Autonomous,4.0,3.0,Operations,,Expansion,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,,0.0,4.0,,2.0,1.0,1.0,1.0,0.0,75.0,70.0,75.0,10.0
+DEPT-7521,West Business Integrity,Financial_Reporting,Corporate_HQ,Support,8.0,Remote,Large,Centralized,2.0,1.0,Other,Other,Expansion,Internal_Audit,2.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,,1.0,4.0,3.0,5.0,,2.0,3.0,12.0,40.0,45.0,,21.0
+DEPT-8642,Process Excellence - Tactical Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3465,Internal Controls - Global Region,Financial_Reporting,Corporate_HQ,Support,5.0,Remote,Large,Centralized,2.0,4.0,Operations,Finance,Regulation,Internal_Audit,,60.0,0.0,1.0,1.0,0.0,1.0,,1.0,1.0,0.0,4.0,,2.0,1.0,1.0,,2.0,50.0,55.0,50.0,11.0
+DEPT-2954,Strategic Unit,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,Centralized,3.0,2.0,Finance,Operations,Restructuring,External_Auditor,1.0,40.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,3.0,,1.0,,3.0,2.0,55.0,55.0,55.0,
+DEPT-6500,Governance - Strategic Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5955,Regional Office,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1472,East Audit Services,Financial_Reporting,Corporate_HQ,,9.0,,,Centralized,2.0,2.0,Operations,Operations,Restructuring,Internal_Audit,1.0,40.0,0.0,0.0,,0.0,,1.0,1.0,1.0,0.0,4.0,3.0,3.0,1.0,1.0,5.0,0.0,50.0,50.0,55.0,10.0
+DEPT-2487,Tactical Internal Controls,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8720,Regional Division,Financial_Reporting,Corporate_HQ,,5.0,Urban,Small,Autonomous,4.0,4.0,Compliance,Compliance,Regulation,Internal_Audit,1.0,20.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,,5.0,3.0,1.0,1.0,4.0,4.0,65.0,70.0,70.0,12.0
+DEPT-9093,Process Excellence - Regional Region,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,,Centralized,3.0,,Operations,Other,,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,,1.0,0.0,4.0,4.0,4.0,1.0,1.0,5.0,4.0,60.0,55.0,55.0,12.0
+DEPT-4820,Core Team,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Small,Centralized,,2.0,Finance,Other,Merger,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,,3.0,3.0,1.0,1.0,5.0,0.0,80.0,70.0,80.0,10.0
+DEPT-6641,Alpha Ethics and Compliance,Financial_Reporting,Corporate_HQ,,7.0,Urban,Large,Centralized,4.0,4.0,Compliance,,Regulation,Internal_Audit,1.0,60.0,0.0,,1.0,,1.0,1.0,1.0,1.0,0.0,5.0,4.0,4.0,1.0,3.0,4.0,0.0,65.0,60.0,65.0,20.0
+DEPT-5023,Legacy Branch,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4194,Quality Assurance - Central Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2377,South Financial Controls,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4438,Central Audit Services,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Small,Centralized,,3.0,Finance,Other,Expansion,External_Auditor,1.0,40.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,3.0,2.0,3.0,1.0,2.0,3.0,0.0,70.0,60.0,,15.0
+DEPT-9271,Metro Ethics and Compliance,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,Large,Centralized,2.0,2.0,Operations,Other,,,1.0,40.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,4.0,4.0,2.0,4.0,5.0,10.0,60.0,55.0,55.0,35.0
+DEPT-9776,Regulatory Affairs - Legacy Region,Financial_Reporting,Corporate_HQ,Operations,7.0,Urban,Large,,4.0,4.0,,Compliance,Regulation,Internal_Audit,1.0,20.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,1.0,0.0,4.0,,1.0,1.0,2.0,5.0,6.0,50.0,40.0,45.0,18.0
+DEPT-7715,Legacy Quality Assurance,Financial_Reporting,Corporate_HQ,,7.0,Urban,Large,Centralized,3.0,2.0,Operations,Operations,Regulation,,1.0,,3.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,5.0,5.0,5.0,2.0,4.0,5.0,2.0,40.0,40.0,35.0,
+DEPT-4862,Innovation Group,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,2.0,,Other,Other,Restructuring,External_Auditor,2.0,20.0,0.0,0.0,0.0,,0.0,1.0,1.0,1.0,0.0,5.0,3.0,3.0,1.0,1.0,3.0,0.0,65.0,60.0,60.0,10.0
+DEPT-1632,Legacy Regulatory Affairs,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9996,Risk Management - Legacy Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6110,South Hub,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5023,Central Division,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,1.0,1.0,,Operations,Regulation,External_Auditor,4.0,20.0,0.0,1.0,1.0,0.0,,0.0,1.0,1.0,1.0,5.0,5.0,5.0,5.0,5.0,5.0,0.0,50.0,50.0,80.0,50.0
+DEPT-7025,Emerging Quality Assurance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2915,Tactical Ethics and Compliance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5086,South Branch,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,4.0,4.0,Compliance,Compliance,Restructuring,Internal_Audit,1.0,40.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,4.0,4.0,5.0,5.0,5.0,5.0,4.0,60.0,55.0,60.0,52.0
+DEPT-6737,Audit Services - West Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5818,Process Excellence - Emerging Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Small,Centralized,0.0,2.0,Administrative,,,External_Auditor,2.0,60.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,3.0,3.0,2.0,3.0,2.0,0.0,70.0,70.0,75.0,
+DEPT-6383,Tactical Quality Assurance,Financial_Reporting,Corporate_HQ,Support,8.0,,Small,Centralized,2.0,2.0,Administrative,Operations,Regulation,Internal_Audit,,40.0,1.0,0.0,1.0,0.0,,,,1.0,1.0,5.0,3.0,1.0,1.0,1.0,5.0,16.0,45.0,40.0,50.0,
+DEPT-8317,Metro Group,Financial_Reporting,Corporate_HQ,,7.0,Urban,Large,Centralized,3.0,3.0,Finance,Other,,Internal_Audit,1.0,,0.0,0.0,1.0,,0.0,1.0,1.0,1.0,0.0,4.0,4.0,3.0,1.0,,5.0,0.0,70.0,75.0,75.0,20.0
+DEPT-9125,Quality Assurance - Elite Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8279,Financial Controls - West Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4532,Ethics and Compliance - East Region,Financial_Reporting,Corporate_HQ,,7.0,,Large,Centralized,4.0,4.0,Compliance,Compliance,,Internal_Audit,2.0,60.0,0.0,0.0,1.0,0.0,,0.0,1.0,1.0,1.0,4.0,3.0,3.0,1.0,2.0,4.0,4.0,75.0,70.0,75.0,17.0
+DEPT-8797,Regional Compliance,Financial_Reporting,Corporate_HQ,Legal,8.0,,,Centralized,1.0,,,,Restructuring,Internal_Audit,1.0,40.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,3.0,4.0,4.0,1.0,2.0,5.0,2.0,50.0,50.0,,16.0
+DEPT-1192,Central Division,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,2.0,2.0,Other,Other,Restructuring,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,5.0,1.0,5.0,1.0,1.0,4.0,0.0,60.0,60.0,65.0,
+DEPT-7665,Compliance - Premier Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5543,Innovation Audit Services,Financial_Reporting,Corporate_HQ,Support,3.0,Remote,Large,Autonomous,0.0,2.0,Operations,Operations,Restructuring,,1.0,29.0,1.0,1.0,1.0,,0.0,1.0,1.0,1.0,0.0,4.0,,2.0,3.0,5.0,2.0,1.0,85.0,77.7,71.2,50.5
+DEPT-6000,Prime Hub,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6007,Elite Branch,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Small,Centralized,1.0,,Other,Other,Regulation,Internal_Audit,2.0,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,4.0,4.0,4.0,2.0,4.0,5.0,2.0,40.0,45.0,50.0,31.0
+DEPT-7646,Regulatory Affairs - East Region,Financial_Reporting,Corporate_HQ,Operations,,Urban,Small,Centralized,2.0,1.0,Operations,Other,Regulation,Internal_Audit,3.0,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,4.0,4.0,5.0,4.0,4.0,5.0,4.0,55.0,50.0,55.0,52.0
+DEPT-8384,Premier Services,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2370,North Division,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4940,Central Quality Assurance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7988,Legacy Operations,Risk_Management,Regional_Operations,Operations,10.0,,Large,Hybrid,3.0,4.0,Finance,Technology,Expansion,External_Auditor,4.0,69.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,2.0,3.0,5.0,,5.0,13.0,82.8,83.7,83.8,36.5
+DEPT-5592,Alpha Sector,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,Small,Centralized,1.0,1.0,Other,Other,,Internal_Audit,1.0,20.0,2.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,2.0,3.0,5.0,,5.0,4.0,0.0,55.0,45.0,0.0,55.0
+DEPT-7428,Compliance - Premier Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2741,Compliance - Strategic Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7417,Ethics and Compliance - East Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3692,Internal Controls - Innovation Region,Financial_Reporting,Corporate_HQ,Support,7.0,Remote,Large,Centralized,4.0,4.0,Compliance,Compliance,Regulation,,1.0,20.0,0.0,0.0,0.0,0.0,,1.0,,1.0,0.0,4.0,4.0,,1.0,1.0,5.0,2.0,75.0,80.0,85.0,11.0
+DEPT-8332,Metro Department,Financial_Reporting,Corporate_HQ,Operations,7.0,Remote,Large,Centralized,2.0,1.0,Other,Other,Regulation,Internal_Audit,,20.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,4.0,4.0,2.0,2.0,4.0,,0.0,60.0,60.0,65.0,30.0
+DEPT-3181,Process Excellence - Digital Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6721,Legacy Process Excellence,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Autonomous,3.0,4.0,Operations,Other,Regulation,Internal_Audit,1.0,40.0,,0.0,1.0,0.0,1.0,1.0,1.0,1.0,,5.0,4.0,4.0,1.0,1.0,1.0,0.0,80.0,80.0,,10.0
+DEPT-3558,East Department,Financial_Reporting,Corporate_HQ,,5.0,Remote,Large,Centralized,2.0,1.0,Finance,Operations,Expansion,Internal_Audit,,40.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,5.0,,2.0,1.0,1.0,,4.0,50.0,45.0,50.0,12.0
+DEPT-4564,Risk Management - Tactical Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4014,Central Audit Services,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3582,Compliance - East Region,Financial_Reporting,Corporate_HQ,Operations,7.0,Remote,Large,,1.0,2.0,Administrative,Administrative,Restructuring,Internal_Audit,1.0,40.0,0.0,0.0,1.0,,1.0,,1.0,0.0,1.0,3.0,5.0,2.0,,2.0,1.0,2.0,80.0,85.0,90.0,21.0
+DEPT-9547,Innovation Unit,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Small,Centralized,,1.0,Other,Other,Restructuring,External_Auditor,,40.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,3.0,3.0,3.0,2.0,3.0,2.0,0.0,60.0,65.0,60.0,
+DEPT-9224,Advanced Center,Financial_Reporting,Corporate_HQ,Compliance,7.0,Urban,Large,Autonomous,4.0,4.0,Other,Compliance,Restructuring,Internal_Audit,2.0,40.0,0.0,1.0,1.0,0.0,0.0,1.0,,0.0,0.0,4.0,1.0,4.0,1.0,,,,50.0,65.0,65.0,11.0
+DEPT-2377,Prime Services,Financial_Reporting,Corporate_HQ,,,Urban,Small,Autonomous,4.0,4.0,Compliance,Finance,Expansion,Internal_Audit,1.0,40.0,,,1.0,0.0,0.0,,1.0,0.0,0.0,4.0,1.0,3.0,3.0,5.0,5.0,6.0,45.0,45.0,50.0,43.0
+DEPT-1578,Process Excellence - Metro Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3242,Financial Controls - North Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3727,Quality Assurance - Global Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9651,Emerging Business Integrity,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9204,Innovation Financial Controls,Financial_Reporting,Regional_Operations,Support,7.0,Urban,Medium,Autonomous,3.0,1.0,Legal,Other,Restructuring,External_Auditor,3.0,14.0,,0.0,0.0,,1.0,0.0,,1.0,0.0,2.0,5.0,,3.0,5.0,2.0,16.0,75.8,81.4,82.5,98.0
+DEPT-7965,Innovation Audit Services,Financial_Reporting,Corporate_HQ,Support,,,Large,Centralized,1.0,2.0,Other,Other,Regulation,Internal_Audit,1.0,20.0,0.0,0.0,0.0,0.0,0.0,,0.0,,0.0,5.0,,5.0,1.0,2.0,5.0,4.0,60.0,55.0,55.0,
+DEPT-9849,Regulatory Affairs - Metro Region,Financial_Reporting,Corporate_HQ,Support,,Remote,Large,Centralized,3.0,4.0,Administrative,Other,Regulation,Internal_Audit,3.0,40.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,5.0,4.0,5.0,2.0,4.0,5.0,2.0,50.0,45.0,50.0,31.0
+DEPT-4353,Legacy Financial Controls,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Small,Autonomous,3.0,4.0,Operations,Other,Restructuring,Internal_Audit,,40.0,0.0,1.0,,1.0,1.0,1.0,1.0,1.0,0.0,,3.0,3.0,1.0,1.0,5.0,2.0,60.0,60.0,65.0,11.0
+DEPT-4465,Advanced Team,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,2.0,,Operations,Operations,Regulation,,1.0,,0.0,1.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,5.0,4.0,1.0,1.0,1.0,1.0,0.0,45.0,,50.0,10.0
+DEPT-8548,Audit Services - Strategic Region,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,,Centralized,4.0,,Operations,Compliance,Regulation,External_Auditor,1.0,40.0,0.0,0.0,1.0,0.0,1.0,1.0,,,0.0,4.0,3.0,3.0,1.0,1.0,,0.0,70.0,75.0,,10.0
+DEPT-7296,Process Excellence - Legacy Region,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,,3.0,1.0,Other,Other,Expansion,Internal_Audit,,20.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,5.0,3.0,2.0,2.0,2.0,5.0,0.0,65.0,65.0,70.0,
+DEPT-5089,Compliance - Premier Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,4.0,4.0,Other,Compliance,Regulation,Internal_Audit,1.0,20.0,,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,4.0,2.0,1.0,1.0,1.0,4.0,0.0,,65.0,65.0,10.0
+DEPT-9843,Elite Center,Financial_Reporting,Corporate_HQ,Operations,9.0,Remote,Small,,2.0,1.0,Administrative,Operations,Regulation,Internal_Audit,2.0,60.0,,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,4.0,3.0,,1.0,1.0,5.0,,45.0,50.0,55.0,20.0
+DEPT-4870,West Sector,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6200,Business Integrity - Beta Region,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Autonomous,4.0,4.0,,Operations,Expansion,,1.0,80.0,0.0,0.0,,0.0,1.0,0.0,1.0,1.0,1.0,1.0,3.0,3.0,5.0,5.0,3.0,0.0,55.0,60.0,60.0,50.0
+DEPT-9627,Audit Services - Regional Region,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,Centralized,2.0,1.0,Operations,Other,Expansion,External_Auditor,3.0,60.0,0.0,0.0,1.0,,1.0,1.0,1.0,1.0,0.0,5.0,2.0,2.0,1.0,1.0,4.0,0.0,50.0,60.0,65.0,10.0
+DEPT-4460,Legacy Unit,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Small,,2.0,1.0,Other,Other,Restructuring,External_Auditor,1.0,40.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,2.0,3.0,2.0,2.0,2.0,2.0,55.0,60.0,70.0,21.0
+DEPT-2856,South Audit Services,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1673,Innovation Operations,Financial_Reporting,Corporate_HQ,Finance,7.0,Remote,Small,Centralized,1.0,1.0,Other,Operations,Regulation,,4.0,40.0,0.0,0.0,0.0,,1.0,1.0,0.0,,1.0,5.0,3.0,5.0,,5.0,,0.0,40.0,40.0,40.0,30.0
+DEPT-3385,Strategic Governance,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Large,,2.0,,Other,Other,Regulation,Compliance_Officer,2.0,60.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,4.0,4.0,,1.0,1.0,3.0,10.0,60.0,50.0,55.0,15.0
+DEPT-8077,Premier Sector,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6581,Global Compliance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9880,Legacy Hub,Financial_Reporting,Corporate_HQ,Support,8.0,,Large,Centralized,4.0,3.0,Operations,Other,Restructuring,External_Auditor,1.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,3.0,1.0,2.0,1.0,3.0,2.0,2.0,75.0,75.0,75.0,21.0
+DEPT-1988,Elite Governance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2124,Emerging Compliance,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,1.0,3.0,Administrative,Operations,Regulation,External_Auditor,1.0,20.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,5.0,3.0,3.0,,4.0,2.0,2.0,45.0,40.0,40.0,36.0
+DEPT-8957,Central Financial Controls,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7239,North Audit Services,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7624,Strategic Center,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,,Centralized,2.0,,Operations,Operations,Restructuring,Internal_Audit,2.0,40.0,0.0,0.0,,1.0,1.0,1.0,1.0,1.0,0.0,5.0,3.0,3.0,,3.0,4.0,,65.0,60.0,65.0,21.0
+DEPT-4366,Financial Controls - Legacy Region,Financial_Reporting,Corporate_HQ,Support,6.0,Remote,Large,Centralized,2.0,2.0,Operations,Operations,Expansion,Internal_Audit,2.0,80.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,,0.0,5.0,,5.0,,1.0,5.0,6.0,65.0,65.0,65.0,13.0
+DEPT-7507,East Operations,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8190,Advanced Audit Services,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5939,Central Group,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7587,Strategic Audit Services,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7804,Strategic Internal Controls,Financial_Reporting,Corporate_HQ,,6.0,Urban,Large,Centralized,3.0,4.0,Administrative,Other,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,,0.0,0.0,,1.0,1.0,0.0,2.0,4.0,3.0,1.0,2.0,3.0,14.0,60.0,55.0,55.0,22.0
+DEPT-4706,Emerging Quality Assurance,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,,Centralized,,2.0,Other,Other,Expansion,Internal_Audit,2.0,40.0,0.0,0.0,1.0,0.0,1.0,,1.0,1.0,0.0,5.0,4.0,4.0,2.0,4.0,5.0,2.0,50.0,50.0,50.0,31.0
+DEPT-5867,Beta Office,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,,Centralized,4.0,4.0,Finance,,Restructuring,Internal_Audit,1.0,20.0,0.0,0.0,,,0.0,1.0,1.0,1.0,0.0,4.0,4.0,4.0,1.0,2.0,2.0,6.0,85.0,85.0,85.0,18.0
+DEPT-6446,Audit Services - Emerging Region,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Small,Centralized,3.0,3.0,Operations,Operations,Restructuring,Internal_Audit,1.0,80.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,5.0,3.0,3.0,1.0,1.0,1.0,4.0,70.0,70.0,75.0,12.0
+DEPT-1799,Prime Governance,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,1.0,1.0,Other,Operations,Regulation,External_Auditor,1.0,40.0,,0.0,,0.0,0.0,1.0,1.0,0.0,0.0,4.0,3.0,4.0,1.0,2.0,5.0,4.0,55.0,50.0,55.0,17.0
+DEPT-2475,Beta Quality Assurance,Financial_Reporting,Corporate_HQ,Technology,7.0,Urban,Small,Centralized,2.0,2.0,Other,Other,Restructuring,External_Auditor,1.0,40.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,4.0,4.0,2.0,5.0,5.0,,0.0,80.0,80.0,80.0,50.0
+DEPT-8278,Premier Division,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,Large,Centralized,2.0,1.0,Operations,Operations,Merger,Internal_Audit,1.0,20.0,2.0,0.0,0.0,,0.0,0.0,,1.0,0.0,,2.0,5.0,2.0,5.0,5.0,4.0,35.0,40.0,30.0,
+DEPT-7174,Central Sector,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2852,Strategic Compliance,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,Large,Centralized,1.0,2.0,Administrative,,Restructuring,Compliance_Officer,2.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,3.0,4.0,4.0,2.0,4.0,,10.0,50.0,50.0,55.0,35.0
+DEPT-8906,Financial Controls - Premier Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2408,West Audit Services,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,,2.0,2.0,Other,Other,Restructuring,Internal_Audit,1.0,20.0,1.0,0.0,0.0,0.0,,1.0,1.0,0.0,0.0,5.0,3.0,4.0,1.0,1.0,5.0,12.0,65.0,55.0,55.0,26.0
+DEPT-5178,West Governance,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Large,Centralized,4.0,,Compliance,Other,,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,4.0,4.0,3.0,3.0,5.0,0.0,60.0,55.0,65.0,30.0
+DEPT-4897,Regulatory Affairs - Central Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1378,Core Quality Assurance,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Small,Centralized,3.0,3.0,Other,Other,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,0.0,0.0,,0.0,1.0,1.0,0.0,5.0,,2.0,1.0,1.0,2.0,0.0,65.0,60.0,60.0,10.0
+DEPT-8557,Legacy Solutions,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8111,West Audit Services,Financial_Reporting,Corporate_HQ,Legal,7.0,Remote,Small,Centralized,1.0,,Administrative,Other,,Internal_Audit,2.0,60.0,0.0,0.0,0.0,0.0,1.0,1.0,,1.0,0.0,4.0,3.0,3.0,1.0,3.0,5.0,4.0,75.0,70.0,75.0,
+DEPT-9065,Risk Management - South Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3752,Global Sector,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,3.0,4.0,Other,Other,Restructuring,Internal_Audit,1.0,,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,5.0,5.0,1.0,1.0,1.0,5.0,0.0,60.0,60.0,65.0,10.0
+DEPT-9915,Beta Center,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,3.0,2.0,Administrative,,Expansion,Internal_Audit,2.0,,,0.0,0.0,0.0,1.0,1.0,1.0,,1.0,5.0,,3.0,,3.0,2.0,0.0,60.0,60.0,60.0,20.0
+DEPT-4668,Global Regulatory Affairs,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Small,Centralized,4.0,2.0,,Other,Regulation,Internal_Audit,,40.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,,5.0,1.0,1.0,3.0,5.0,,60.0,65.0,70.0,20.0
+DEPT-3794,Risk Management - South Region,Financial_Reporting,Corporate_HQ,Support,7.0,,Small,Centralized,,1.0,Operations,Other,Expansion,Internal_Audit,2.0,80.0,,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,3.0,1.0,2.0,1.0,,3.0,0.0,90.0,95.0,95.0,10.0
+DEPT-5671,West Internal Controls,Financial_Reporting,Corporate_HQ,Support,6.0,,Large,Centralized,4.0,3.0,Compliance,Other,Merger,Internal_Audit,1.0,40.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,3.0,2.0,1.0,1.0,,4.0,70.0,75.0,75.0,
+DEPT-5202,Premier Financial Controls,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4005,Central Internal Controls,Financial_Reporting,Corporate_HQ,Technology,11.0,,Medium,Centralized,,3.0,Compliance,Compliance,Innovation,Board_Committee,1.0,49.0,5.0,1.0,0.0,,1.0,0.0,0.0,,1.0,,1.0,,1.0,,1.0,8.0,69.3,72.0,72.6,84.0
+DEPT-3745,Quality Assurance - Innovation Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3222,Core Center,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7177,Core Group,Financial_Reporting,Corporate_HQ,Technology,7.0,Remote,Large,Centralized,1.0,2.0,Administrative,Other,Restructuring,Internal_Audit,1.0,40.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,3.0,1.0,3.0,1.0,5.0,3.0,6.0,45.0,45.0,50.0,33.0
+DEPT-9622,Elite Group,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8383,Financial Controls - Strategic Region,Financial_Reporting,Corporate_HQ,Technology,,Urban,Large,Centralized,,2.0,Compliance,Operations,Restructuring,Internal_Audit,2.0,40.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,5.0,3.0,3.0,1.0,1.0,1.0,2.0,65.0,70.0,70.0,11.0
+DEPT-6883,Elite Hub,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9373,Strategic Operations,Financial_Reporting,Corporate_HQ,,13.0,Remote,Medium,Autonomous,4.0,3.0,Technology,Technology,Merger,,3.0,91.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,,1.0,2.0,,1.0,3.0,3.0,14.0,59.2,64.4,65.4,37.0
+DEPT-2011,Business Integrity - North Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1777,Central Center,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,3.0,4.0,Other,Other,Regulation,External_Auditor,3.0,20.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,1.0,0.0,3.0,4.0,5.0,2.0,4.0,2.0,4.0,45.0,45.0,50.0,42.0
+DEPT-5430,West Risk Management,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2743,Regional Group,Financial_Reporting,Corporate_HQ,Operations,8.0,Remote,Large,Centralized,3.0,2.0,Other,,Regulation,Internal_Audit,1.0,60.0,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,5.0,3.0,2.0,1.0,1.0,3.0,2.0,50.0,55.0,60.0,11.0
+DEPT-1066,Audit Services - Strategic Region,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,Centralized,,4.0,Compliance,Operations,Regulation,Internal_Audit,1.0,60.0,0.0,0.0,1.0,,1.0,1.0,1.0,1.0,,4.0,2.0,2.0,1.0,1.0,5.0,2.0,65.0,65.0,65.0,11.0
+DEPT-7130,Global Financial Controls,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,4.0,3.0,Compliance,Other,,Internal_Audit,,40.0,0.0,,1.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,,3.0,2.0,3.0,5.0,0.0,55.0,55.0,55.0,
+DEPT-6685,Ethics and Compliance - Digital Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9552,Prime Team,Financial_Reporting,Corporate_HQ,Support,5.0,Remote,Small,Centralized,2.0,2.0,Finance,Operations,Expansion,Internal_Audit,2.0,40.0,,1.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,,,3.0,1.0,3.0,,0.0,55.0,50.0,55.0,20.0
+DEPT-9492,Risk Management - Alpha Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1649,Business Integrity - Innovation Region,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Small,,3.0,3.0,Other,Other,,Internal_Audit,2.0,40.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,4.0,5.0,,1.0,,0.0,70.0,70.0,75.0,10.0
+DEPT-8751,Compliance - East Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,4.0,4.0,Compliance,Operations,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,5.0,3.0,1.0,1.0,4.0,5.0,,55.0,55.0,60.0,26.0
+DEPT-3055,Alpha Division,Financial_Reporting,Corporate_HQ,Legal,6.0,Urban,Large,Centralized,2.0,3.0,Operations,Compliance,Merger,,1.0,40.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,,0.0,,3.0,1.0,1.0,1.0,3.0,0.0,65.0,65.0,70.0,10.0
+DEPT-5005,Internal Controls - Beta Region,Financial_Reporting,Corporate_HQ,Operations,6.0,,,Centralized,2.0,2.0,Operations,Other,Expansion,External_Auditor,2.0,40.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,4.0,4.0,2.0,1.0,1.0,3.0,6.0,60.0,50.0,55.0,13.0
+DEPT-4291,Central Hub,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3556,Legacy Regulatory Affairs,Financial_Reporting,Corporate_HQ,Operations,,Urban,Large,Centralized,,3.0,Other,Operations,Restructuring,External_Auditor,2.0,20.0,0.0,0.0,0.0,0.0,,1.0,1.0,1.0,0.0,5.0,,2.0,,1.0,5.0,6.0,70.0,70.0,75.0,13.0
+DEPT-4499,Global Financial Controls,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,3.0,4.0,Operations,Operations,Restructuring,,1.0,20.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,5.0,,5.0,3.0,2.0,5.0,2.0,45.0,45.0,45.0,26.0
+DEPT-2567,Risk Management - Central Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8159,Business Integrity - Strategic Region,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,4.0,4.0,Compliance,Operations,Restructuring,,1.0,,,0.0,1.0,,,0.0,,1.0,0.0,5.0,3.0,2.0,,,,4.0,75.0,80.0,80.0,12.0
+DEPT-8322,Advanced Division,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Large,Autonomous,4.0,,Administrative,Compliance,Regulation,Internal_Audit,,40.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,,4.0,3.0,4.0,1.0,1.0,3.0,4.0,0.0,55.0,55.0,12.0
+DEPT-7211,Prime Center,Operational_Compliance,Regional_Operations,Finance,12.0,Remote,Large,Hybrid,1.0,4.0,Other,Compliance,Expansion,External_Auditor,5.0,90.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,,2.0,4.0,1.0,2.0,3.0,5.0,22.0,86.7,93.9,95.3,36.0
+DEPT-2862,Emerging Regulatory Affairs,Financial_Reporting,Corporate_HQ,Support,7.0,,Large,Centralized,4.0,2.0,Other,Other,Regulation,,1.0,60.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,,3.0,4.0,1.0,,5.0,2.0,55.0,60.0,70.0,21.0
+DEPT-5563,Alpha Division,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2114,Tactical Compliance,Financial_Reporting,Corporate_HQ,Operations,9.0,Remote,Large,Centralized,,,Other,Operations,Expansion,External_Auditor,1.0,40.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,,5.0,3.0,1.0,2.0,5.0,0.0,50.0,50.0,55.0,15.0
+DEPT-8902,Compliance - Central Region,Financial_Reporting,Corporate_HQ,Operations,7.0,Urban,Large,,2.0,3.0,Other,Other,Regulation,External_Auditor,2.0,20.0,0.0,0.0,0.0,0.0,0.0,,,1.0,0.0,5.0,2.0,,1.0,,2.0,2.0,45.0,60.0,65.0,11.0
+DEPT-8165,Internal Controls - Prime Region,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,4.0,,Other,Compliance,Expansion,External_Auditor,2.0,,0.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,4.0,4.0,3.0,1.0,1.0,2.0,4.0,80.0,75.0,80.0,
+DEPT-4472,Internal Controls - Metro Region,Financial_Reporting,Corporate_HQ,Support,,Remote,Small,Centralized,4.0,4.0,Operations,Other,Merger,Internal_Audit,1.0,20.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,5.0,2.0,1.0,1.0,2.0,3.0,6.0,60.0,55.0,,18.0
+DEPT-8383,Internal Controls - East Region,Financial_Reporting,Corporate_HQ,Support,,Remote,,Autonomous,3.0,2.0,Other,Operations,Restructuring,Internal_Audit,2.0,40.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,4.0,1.0,,1.0,1.0,5.0,15.0,60.0,45.0,50.0,17.5
+DEPT-7646,Prime Regulatory Affairs,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1183,Premier Solutions,Financial_Reporting,Corporate_HQ,,7.0,Urban,Large,Centralized,,,Administrative,Other,Regulation,Internal_Audit,1.0,40.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,4.0,3.0,2.0,1.0,1.0,4.0,10.0,50.0,45.0,50.0,15.0
+DEPT-4854,Financial Controls - Emerging Region,Operational_Compliance,Corporate_HQ,Legal,4.0,Urban,Medium,Autonomous,,4.0,Administrative,Legal,Merger,Internal_Audit,3.0,31.0,,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,2.0,,2.0,,4.0,,2.0,,54.8,55.1,71.0
+DEPT-8245,Premier Sector,Financial_Reporting,Corporate_HQ,Support,6.0,Remote,Large,,1.0,1.0,Other,Operations,Expansion,,2.0,20.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,3.0,3.0,3.0,,2.0,1.0,8.0,60.0,55.0,55.0,19.0
+DEPT-2792,Central Sector,Financial_Reporting,Corporate_HQ,Support,7.0,Remote,Large,Autonomous,3.0,2.0,Other,,,Internal_Audit,,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,,4.0,3.0,3.0,2.0,3.0,2.0,,70.0,70.0,80.0,
+DEPT-9847,Tactical Services,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6829,Central Governance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9861,North Branch,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4418,Metro Ethics and Compliance,Financial_Reporting,Corporate_HQ,Operations,7.0,Remote,Small,,4.0,,Compliance,Other,Regulation,Internal_Audit,2.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,3.0,3.0,2.0,,4.0,0.0,60.0,60.0,60.0,25.0
+DEPT-6865,Quality Assurance - North Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6655,Compliance - Emerging Region,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Small,,3.0,3.0,Other,Operations,,Internal_Audit,,40.0,0.0,0.0,1.0,0.0,0.0,,1.0,1.0,0.0,,3.0,5.0,1.0,4.0,,6.0,65.0,60.0,65.0,28.0
+DEPT-8865,Quality Assurance - Metro Region,Financial_Reporting,Corporate_HQ,Support,7.0,Remote,Large,,2.0,1.0,Administrative,Operations,,Internal_Audit,,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,2.0,1.0,,1.0,1.0,3.0,2.0,65.0,,65.0,11.0
+DEPT-8932,Prime Unit,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,3.0,3.0,Operations,Other,Restructuring,Internal_Audit,1.0,40.0,,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,4.0,2.0,3.0,1.0,2.0,,0.0,55.0,60.0,65.0,15.0
+DEPT-1096,Metro Unit,Financial_Reporting,Regional_Operations,Finance,,International,Large,Centralized,1.0,0.0,,Finance,Innovation,External_Auditor,5.0,83.0,4.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,5.0,5.0,1.0,4.0,4.0,2.0,,51.1,51.0,51.0,88.0
+DEPT-6158,Core Internal Controls,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3455,Internal Controls - Alpha Region,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,3.0,3.0,Operations,Other,Restructuring,External_Auditor,1.0,60.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,5.0,3.0,3.0,1.0,1.0,,4.0,65.0,70.0,70.0,
+DEPT-1455,Central Ethics and Compliance,Risk_Management,Regional_Operations,Support,14.0,,Large,Autonomous,0.0,4.0,,Operations,Expansion,Board_Committee,,28.0,4.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,4.0,,1.0,5.0,4.0,4.0,,85.5,91.7,93.3,97.5
+DEPT-2616,Governance - Innovation Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6509,Internal Controls - Metro Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,1.0,,Operations,Compliance,Expansion,Internal_Audit,1.0,60.0,0.0,0.0,1.0,0.0,0.0,,1.0,1.0,,4.0,3.0,3.0,1.0,1.0,3.0,0.0,65.0,65.0,70.0,10.0
+DEPT-2348,Global Audit Services,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,,,Operations,,Merger,,1.0,20.0,0.0,1.0,1.0,0.0,1.0,1.0,,1.0,0.0,,5.0,5.0,5.0,5.0,,12.0,45.0,45.0,40.0,56.0
+DEPT-3120,Governance - Core Region,Financial_Reporting,Corporate_HQ,Operations,9.0,Urban,Large,Centralized,4.0,2.0,Finance,Other,Regulation,Internal_Audit,2.0,40.0,0.0,,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,4.0,4.0,1.0,1.0,1.0,9.0,55.0,50.0,50.0,14.5
+DEPT-4743,West Compliance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5385,Governance - Beta Region,Financial_Reporting,Corporate_HQ,Compliance,,Urban,Small,Centralized,4.0,4.0,Compliance,Compliance,Restructuring,,1.0,20.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,4.0,2.0,2.0,2.0,1.0,0.0,90.0,90.0,85.0,20.0
+DEPT-1584,Innovation Regulatory Affairs,Financial_Reporting,Corporate_HQ,Operations,7.0,,Large,,3.0,2.0,Operations,Operations,Regulation,Internal_Audit,2.0,20.0,3.0,0.0,1.0,0.0,,0.0,0.0,,0.0,4.0,5.0,2.0,1.0,1.0,2.0,10.0,40.0,35.0,40.0,45.0
+DEPT-3583,Innovation Division,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Large,Centralized,2.0,2.0,Administrative,Operations,Restructuring,Internal_Audit,1.0,60.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,,,,3.0,3.0,1.0,1.0,3.0,0.0,55.0,60.0,65.0,10.0
+DEPT-9677,Ethics and Compliance - Premier Region,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Large,Centralized,3.0,3.0,Administrative,Other,Regulation,External_Auditor,1.0,40.0,0.0,0.0,1.0,,0.0,,1.0,1.0,0.0,4.0,1.0,,1.0,1.0,3.0,8.0,55.0,60.0,70.0,14.0
+DEPT-4352,Financial Controls - North Region,Risk_Management,Regional_Operations,Finance,,,Small,Autonomous,3.0,1.0,Technology,Compliance,Expansion,Internal_Audit,2.0,63.0,2.0,,1.0,1.0,0.0,0.0,1.0,,0.0,1.0,5.0,3.0,,5.0,3.0,16.0,66.2,65.7,65.6,78.0
+DEPT-9975,Tactical Department,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,4.0,3.0,Compliance,Operations,Regulation,External_Auditor,2.0,80.0,,1.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,2.0,2.0,,1.0,1.0,3.0,6.0,45.0,55.0,55.0,13.0
+DEPT-1439,Digital Business Integrity,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,2.0,2.0,Other,Other,Restructuring,Internal_Audit,1.0,40.0,,,,0.0,0.0,1.0,1.0,1.0,1.0,5.0,4.0,,1.0,1.0,5.0,0.0,60.0,55.0,55.0,10.0
+DEPT-2762,East Office,Risk_Management,Regional_Operations,,14.0,Suburban,Medium,Hybrid,3.0,3.0,,Compliance,Innovation,Internal_Audit,4.0,41.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,,1.0,5.0,,3.0,3.0,2.0,4.0,1.0,65.8,67.5,67.9,25.5
+DEPT-9516,Advanced Risk Management,Operational_Compliance,Corporate_HQ,Legal,9.0,Urban,Small,Centralized,3.0,1.0,Other,Compliance,Expansion,Compliance_Officer,2.0,59.0,4.0,0.0,1.0,1.0,,1.0,1.0,,1.0,5.0,2.0,2.0,4.0,5.0,4.0,,53.3,51.4,51.1,96.0
+DEPT-5357,Beta Compliance,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,,0.0,Other,Other,Expansion,Internal_Audit,2.0,40.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,4.0,3.0,2.0,1.0,1.0,,0.0,80.0,85.0,90.0,10.0
+DEPT-5197,Risk Management - Central Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9245,Internal Controls - Core Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5329,Regional Quality Assurance,Risk_Management,Regional_Operations,,12.0,Urban,,Centralized,4.0,2.0,Legal,Operations,,Board_Committee,4.0,81.0,5.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,3.0,5.0,4.0,5.0,4.0,5.0,24.0,90.3,94.1,,107.0
+DEPT-1119,Central Audit Services,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,,Centralized,2.0,,Other,Other,Regulation,External_Auditor,2.0,40.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,,2.0,,1.0,1.0,3.0,2.0,55.0,60.0,70.0,11.0
+DEPT-9725,Financial Controls - Strategic Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,2.0,2.0,Other,Operations,Expansion,External_Auditor,3.0,60.0,0.0,,1.0,0.0,0.0,1.0,1.0,1.0,1.0,4.0,2.0,,1.0,1.0,1.0,8.0,65.0,75.0,75.0,14.0
+DEPT-8407,Core Office,Operational_Compliance,Regional_Operations,Support,13.0,International,Small,Centralized,0.0,3.0,,Legal,Merger,Internal_Audit,1.0,92.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,3.0,1.0,1.0,5.0,4.0,3.0,30.0,79.5,82.2,82.8,60.0
+DEPT-1856,Elite Compliance,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,Small,Centralized,3.0,1.0,Operations,Operations,Regulation,Internal_Audit,2.0,20.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,,1.0,3.0,3.0,4.0,4.0,5.0,4.0,,55.0,55.0,60.0,46.0
+DEPT-8747,West Risk Management,Financial_Reporting,Corporate_HQ,Operations,,Remote,,Centralized,1.0,1.0,Administrative,Other,Regulation,Internal_Audit,4.0,40.0,,0.0,,,0.0,1.0,1.0,0.0,,5.0,1.0,3.0,1.0,1.0,3.0,0.0,70.0,65.0,65.0,10.0
+DEPT-4431,Regional Team,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4858,North Solutions,Financial_Reporting,Corporate_HQ,Legal,8.0,Urban,Large,Centralized,4.0,4.0,Finance,,Expansion,External_Auditor,1.0,40.0,1.0,1.0,,0.0,1.0,1.0,1.0,1.0,1.0,,4.0,4.0,1.0,1.0,4.0,2.0,70.0,60.0,65.0,21.0
+DEPT-2257,Metro Operations,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Small,,4.0,3.0,Finance,Other,Restructuring,,1.0,20.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,3.0,1.0,3.0,1.0,3.0,5.0,6.0,60.0,60.0,60.0,23.0
+DEPT-6859,Innovation Risk Management,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,3.0,3.0,Other,Operations,Regulation,External_Auditor,1.0,40.0,1.0,0.0,1.0,,0.0,1.0,1.0,1.0,1.0,4.0,5.0,5.0,4.0,4.0,5.0,0.0,50.0,50.0,5.0,50.0
+DEPT-8933,Innovation Team,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2035,Metro Internal Controls,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Large,Centralized,2.0,3.0,Other,Operations,Expansion,External_Auditor,1.0,80.0,0.0,0.0,1.0,0.0,,1.0,,1.0,1.0,4.0,5.0,5.0,1.0,3.0,2.0,10.0,80.0,80.0,80.0,25.0
+DEPT-2665,West Ethics and Compliance,Risk_Management,Regional_Operations,Support,3.0,International,Small,Autonomous,3.0,0.0,Legal,Other,Regulation,External_Auditor,5.0,94.0,1.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,3.0,2.0,2.0,3.0,,1.0,10.0,51.3,55.2,56.0,
+DEPT-4914,Business Integrity - Elite Region,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Small,,4.0,4.0,Finance,Operations,Regulation,External_Auditor,1.0,,0.0,0.0,1.0,,1.0,1.0,1.0,1.0,0.0,4.0,3.0,3.0,1.0,,5.0,0.0,60.0,65.0,60.0,20.0
+DEPT-2762,Emerging Regulatory Affairs,Financial_Reporting,Corporate_HQ,Technology,7.0,,Large,,2.0,2.0,Other,Other,Restructuring,External_Auditor,2.0,20.0,0.0,0.0,,0.0,0.0,1.0,,,0.0,4.0,4.0,4.0,2.0,3.0,4.0,8.0,40.0,40.0,45.0,29.0
+DEPT-7720,Digital Internal Controls,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,2.0,2.0,Operations,Operations,Restructuring,Internal_Audit,1.0,,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,2.0,2.0,1.0,3.0,5.0,6.0,50.0,55.0,60.0,23.0
+DEPT-7634,Legacy Governance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3258,Governance - North Region,Financial_Reporting,Corporate_HQ,,7.0,Remote,Small,Centralized,1.0,2.0,,,Expansion,Internal_Audit,1.0,20.0,,0.0,0.0,0.0,,1.0,1.0,0.0,0.0,2.0,2.0,2.0,3.0,,5.0,14.0,45.0,40.0,50.0,67.0
+DEPT-1355,Business Integrity - Metro Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2607,Core Unit,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5849,North Solutions,Financial_Reporting,Corporate_HQ,Operations,7.0,,Large,,2.0,2.0,Other,,Regulation,,2.0,40.0,,0.0,1.0,,1.0,1.0,1.0,1.0,0.0,4.0,5.0,2.0,1.0,,1.0,0.0,60.0,65.0,,10.0
+DEPT-2583,Premier Team,Financial_Reporting,Corporate_HQ,,7.0,Urban,Small,Centralized,2.0,2.0,Operations,Operations,Regulation,External_Auditor,1.0,80.0,0.0,0.0,,0.0,1.0,1.0,1.0,1.0,1.0,3.0,4.0,1.0,1.0,1.0,2.0,2.0,50.0,55.0,60.0,11.0
+DEPT-4592,Global Department,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1237,Central Ethics and Compliance,Financial_Reporting,Corporate_HQ,Operations,7.0,Remote,Large,Centralized,1.0,1.0,Other,Other,Restructuring,,,60.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,4.0,3.0,3.0,1.0,1.0,1.0,2.0,,70.0,75.0,11.0
+DEPT-5366,Regulatory Affairs - Alpha Region,Financial_Reporting,Corporate_HQ,Support,6.0,,,Centralized,1.0,1.0,Administrative,Administrative,Regulation,Internal_Audit,,20.0,0.0,0.0,,0.0,0.0,1.0,1.0,1.0,0.0,3.0,4.0,,3.0,3.0,1.0,4.0,50.0,55.0,55.0,32.0
+DEPT-2968,Core Compliance,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Small,Autonomous,3.0,,Other,Other,Restructuring,Internal_Audit,1.0,40.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,5.0,3.0,2.0,1.0,1.0,1.0,0.0,50.0,55.0,55.0,
+DEPT-7397,Global Financial Controls,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5056,Innovation Hub,Financial_Reporting,Corporate_HQ,Support,9.0,Urban,Large,Centralized,4.0,4.0,Finance,Other,Expansion,Compliance_Officer,2.0,40.0,0.0,0.0,,0.0,1.0,1.0,1.0,1.0,0.0,2.0,3.0,4.0,,3.0,2.0,2.0,70.0,65.0,65.0,26.0
+DEPT-1934,Quality Assurance - Prime Region,Financial_Reporting,Corporate_HQ,Legal,7.0,Urban,Small,Centralized,1.0,1.0,Finance,Other,,Internal_Audit,2.0,,1.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,4.0,,1.0,2.0,,0.0,45.0,50.0,50.0,25.0
+DEPT-9608,Elite Governance,Financial_Reporting,Corporate_HQ,Technology,5.0,Urban,Small,Centralized,4.0,2.0,Compliance,Other,Regulation,Internal_Audit,1.0,20.0,0.0,0.0,0.0,0.0,,1.0,1.0,1.0,,3.0,5.0,2.0,1.0,1.0,3.0,10.0,90.0,85.0,90.0,15.0
+DEPT-2120,Central Sector,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2308,Global Division,Financial_Reporting,Corporate_HQ,,6.0,Urban,Small,Centralized,1.0,,Finance,Operations,Regulation,Internal_Audit,2.0,20.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,4.0,4.0,5.0,3.0,5.0,5.0,0.0,45.0,40.0,50.0,60.0
+DEPT-1017,Core Office,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3156,Quality Assurance - Emerging Region,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,4.0,4.0,Compliance,Finance,Expansion,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,3.0,2.0,2.0,1.0,1.0,5.0,8.0,,75.0,80.0,14.0
+DEPT-2239,West Internal Controls,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6165,Digital Internal Controls,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,1.0,1.0,Administrative,Other,Restructuring,Internal_Audit,2.0,20.0,,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,4.0,3.0,2.0,1.0,4.0,5.0,2.0,60.0,65.0,65.0,26.0
+DEPT-2438,Tactical Quality Assurance,Financial_Reporting,Corporate_HQ,,8.0,Remote,,Centralized,,3.0,Other,Operations,Regulation,Internal_Audit,1.0,40.0,,0.0,1.0,,0.0,1.0,1.0,1.0,1.0,4.0,3.0,3.0,1.0,3.0,,8.0,,45.0,50.0,24.0
+DEPT-1972,Tactical Compliance,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,,Centralized,,3.0,Other,Other,Expansion,Internal_Audit,3.0,40.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,5.0,,2.0,1.0,1.0,4.0,2.0,65.0,70.0,70.0,11.0
+DEPT-2502,Advanced Sector,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5376,Innovation Process Excellence,Financial_Reporting,Corporate_HQ,Support,,,Large,Centralized,3.0,2.0,Operations,Operations,Expansion,External_Auditor,1.0,40.0,1.0,1.0,,0.0,0.0,1.0,0.0,,0.0,3.0,3.0,3.0,,3.0,3.0,0.0,45.0,40.0,50.0,45.0
+DEPT-6976,Innovation Financial Controls,Financial_Reporting,Corporate_HQ,Support,8.0,,,Centralized,3.0,3.0,Other,Other,Regulation,Internal_Audit,2.0,20.0,1.0,,,0.0,0.0,1.0,,,0.0,4.0,1.0,1.0,1.0,1.0,3.0,14.0,40.0,35.0,35.0,27.0
+DEPT-4384,Emerging Governance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2507,Process Excellence - Tactical Region,Risk_Management,Regional_Operations,Support,6.0,,Medium,Autonomous,1.0,3.0,Operations,Administrative,Expansion,Internal_Audit,1.0,35.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,,1.0,4.0,1.0,5.0,5.0,1.0,1.0,,86.3,79.3,71.2,72.0
+DEPT-4447,Financial Controls - Elite Region,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,2.0,2.0,Operations,Other,Expansion,Internal_Audit,2.0,,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,3.0,4.0,4.0,,4.0,5.0,,65.0,60.0,70.0,25.0
+DEPT-1329,Core Governance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4303,Premier Hub,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4749,Core Ethics and Compliance,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,,3.0,Administrative,Other,Regulation,Internal_Audit,1.0,20.0,0.0,0.0,1.0,1.0,,1.0,1.0,1.0,0.0,4.0,2.0,,2.0,5.0,,2.0,55.0,60.0,55.0,36.0
+DEPT-9847,Global Unit,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Small,Centralized,2.0,2.0,Operations,Finance,Expansion,Internal_Audit,1.0,80.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,3.0,4.0,1.0,1.0,4.0,2.0,55.0,60.0,60.0,11.0
+DEPT-8426,Metro Unit,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,2.0,2.0,Other,Other,Regulation,External_Auditor,1.0,40.0,,0.0,,0.0,0.0,1.0,0.0,1.0,0.0,4.0,3.0,5.0,2.0,4.0,4.0,0.0,45.0,50.0,55.0,
+DEPT-7830,Legacy Risk Management,Financial_Reporting,Corporate_HQ,Operations,,Urban,Large,Centralized,4.0,3.0,Compliance,Other,Regulation,Internal_Audit,1.0,,0.0,,,0.0,0.0,0.0,1.0,1.0,0.0,4.0,3.0,2.0,1.0,1.0,3.0,2.0,50.0,50.0,55.0,11.0
+DEPT-9111,Premier Regulatory Affairs,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8353,Audit Services - Alpha Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7708,Global Division,Risk_Management,Corporate_HQ,Support,6.0,Urban,Large,Autonomous,0.0,0.0,Technology,Compliance,Regulation,Compliance_Officer,1.0,98.0,5.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,3.0,3.0,3.0,3.0,1.0,1.0,29.0,63.9,66.2,66.6,84.5
+DEPT-4565,Regulatory Affairs - Beta Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7900,Core Governance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4399,South Process Excellence,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1233,West Process Excellence,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Small,Centralized,4.0,3.0,Operations,Other,Expansion,Internal_Audit,1.0,40.0,0.0,0.0,,0.0,1.0,,1.0,1.0,,5.0,4.0,2.0,1.0,2.0,5.0,6.0,60.0,60.0,65.0,18.0
+DEPT-6070,Digital Unit,Operational_Compliance,Regional_Operations,Operations,9.0,Suburban,,Centralized,4.0,0.0,Technology,Finance,Merger,Compliance_Officer,5.0,56.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,3.0,5.0,1.0,1.0,4.0,2.0,6.0,93.7,78.7,70.8,28.0
+DEPT-3831,Ethics and Compliance - Emerging Region,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Small,Autonomous,4.0,,,Other,Regulation,Internal_Audit,1.0,40.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5.0,2.0,2.0,1.0,1.0,5.0,4.0,50.0,55.0,55.0,12.0
+DEPT-4868,Tactical Division,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3212,Legacy Hub,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1694,Compliance - Innovation Region,Financial_Reporting,Corporate_HQ,Operations,6.0,Remote,Large,Centralized,2.0,2.0,Administrative,Other,Regulation,Internal_Audit,3.0,20.0,0.0,0.0,0.0,0.0,0.0,,1.0,0.0,0.0,4.0,2.0,2.0,1.0,2.0,3.0,4.0,60.0,50.0,55.0,17.0
+DEPT-2435,Financial Controls - North Region,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,4.0,4.0,Operations,Operations,,Internal_Audit,1.0,60.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,,3.0,2.0,3.0,1.0,2.0,2.0,10.0,65.0,65.0,70.0,20.0
+DEPT-7364,Innovation Compliance,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,4.0,2.0,Compliance,Other,Restructuring,Internal_Audit,,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,4.0,3.0,3.0,2.0,,,4.0,55.0,60.0,65.0,22.0
+DEPT-6650,West Business Integrity,Risk_Management,Regional_Operations,Support,5.0,Urban,Large,,0.0,2.0,Legal,Operations,Innovation,Compliance_Officer,4.0,92.0,2.0,0.0,1.0,1.0,0.0,0.0,0.0,,1.0,2.0,,4.0,4.0,,4.0,8.0,77.1,83.1,84.3,69.0
+DEPT-8307,Legacy Financial Controls,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8678,Elite Center,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,Centralized,4.0,2.0,Finance,Operations,Restructuring,Internal_Audit,1.0,60.0,0.0,,,0.0,1.0,1.0,,1.0,1.0,3.0,,2.0,1.0,1.0,5.0,,70.0,70.0,70.0,10.0
+DEPT-3447,Central Operations,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6885,Ethics and Compliance - Beta Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7334,Risk Management - Innovation Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,,2.0,4.0,Administrative,Finance,Expansion,Internal_Audit,2.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,4.0,3.0,3.0,1.0,1.0,1.0,6.0,75.0,,80.0,13.0
+DEPT-7435,Metro Quality Assurance,Operational_Compliance,Corporate_HQ,Technology,14.0,Remote,Large,Centralized,1.0,1.0,Administrative,Other,Innovation,Compliance_Officer,4.0,77.0,3.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0,1.0,2.0,1.0,,5.0,82.7,83.8,84.1,47.5
+DEPT-8062,Financial Controls - Alpha Region,Financial_Reporting,Corporate_HQ,,6.0,Urban,Large,Centralized,3.0,3.0,Administrative,Other,Expansion,Compliance_Officer,3.0,40.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,5.0,3.0,3.0,1.0,,2.0,4.0,45.0,55.0,50.0,32.0
+DEPT-4759,Prime Branch,Financial_Reporting,Corporate_HQ,Operations,6.0,Remote,Large,Centralized,4.0,3.0,Operations,Other,Expansion,Internal_Audit,2.0,20.0,0.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,3.0,3.0,3.0,1.0,1.0,4.0,6.0,45.0,55.0,55.0,13.0
+DEPT-3845,Governance - Premier Region,Financial_Reporting,Corporate_HQ,Operations,6.0,Remote,Large,Centralized,2.0,1.0,Other,Other,Regulation,Internal_Audit,2.0,20.0,0.0,0.0,0.0,0.0,1.0,,1.0,0.0,0.0,3.0,3.0,,1.0,3.0,,2.0,70.0,65.0,60.0,21.0
+DEPT-5865,North Governance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6073,Tactical Group,Financial_Reporting,Corporate_HQ,Operations,7.0,Urban,Small,Centralized,4.0,4.0,Operations,Other,Restructuring,Internal_Audit,1.0,40.0,0.0,,1.0,0.0,0.0,1.0,1.0,1.0,,5.0,3.0,5.0,4.0,5.0,3.0,15.0,65.0,60.0,60.0,52.5
+DEPT-4811,Risk Management - Advanced Region,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,2.0,2.0,Other,Other,Restructuring,Internal_Audit,1.0,20.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,2.0,2.0,1.0,2.0,5.0,8.0,55.0,60.0,60.0,19.0
+DEPT-6285,Financial Controls - Global Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1752,Elite Ethics and Compliance,Financial_Reporting,Corporate_HQ,,8.0,Urban,Large,Centralized,2.0,2.0,,Operations,Expansion,,1.0,40.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,5.0,5.0,4.0,3.0,5.0,2.0,16.0,40.0,35.0,,48.0
+DEPT-1744,Advanced Operations,Financial_Reporting,Corporate_HQ,Technology,6.0,Urban,Small,Centralized,2.0,,Operations,Operations,Regulation,Internal_Audit,3.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,3.0,3.0,2.0,3.0,4.0,0.0,70.0,65.0,65.0,25.0
+DEPT-3948,Compliance - Prime Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,4.0,4.0,,Finance,Regulation,Internal_Audit,1.0,20.0,0.0,0.0,0.0,,1.0,1.0,1.0,1.0,0.0,5.0,3.0,,1.0,2.0,5.0,2.0,70.0,75.0,85.0,16.0
+DEPT-3802,Beta Sector,Financial_Reporting,Corporate_HQ,Support,,Urban,,Centralized,3.0,2.0,Other,Other,Expansion,Internal_Audit,2.0,40.0,0.0,0.0,0.0,0.0,,1.0,1.0,1.0,0.0,4.0,4.0,4.0,1.0,3.0,1.0,,70.0,80.0,75.0,21.0
+DEPT-5582,Central Ethics and Compliance,Financial_Reporting,Corporate_HQ,Operations,6.0,Remote,Large,Autonomous,4.0,4.0,,Compliance,,Internal_Audit,2.0,60.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,2.0,4.0,,1.0,1.0,5.0,4.0,,65.0,65.0,12.0
+DEPT-4928,Advanced Internal Controls,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Small,Autonomous,2.0,1.0,Administrative,Other,Restructuring,Internal_Audit,,20.0,,0.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,4.0,4.0,,1.0,1.0,5.0,0.0,55.0,50.0,50.0,10.0
+DEPT-4019,Regulatory Affairs - North Region,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,,Centralized,2.0,2.0,Other,Other,Restructuring,Internal_Audit,2.0,,,0.0,1.0,1.0,0.0,,1.0,1.0,0.0,,,3.0,5.0,5.0,4.0,9.0,50.0,45.0,50.0,
+DEPT-2368,Elite Branch,Risk_Management,Corporate_HQ,Support,9.0,Suburban,Small,Autonomous,,4.0,Technology,Administrative,Innovation,External_Auditor,5.0,74.0,4.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,4.0,2.0,4.0,,2.0,1.0,18.0,54.1,54.1,54.1,79.0
+DEPT-2721,Quality Assurance - Advanced Region,Financial_Reporting,Corporate_HQ,Support,7.0,,Large,Centralized,3.0,1.0,Operations,Operations,Regulation,External_Auditor,1.0,60.0,0.0,0.0,,0.0,0.0,0.0,1.0,1.0,,3.0,4.0,3.0,2.0,3.0,5.0,0.0,85.0,90.0,85.0,25.0
+DEPT-8361,Innovation Governance,Financial_Reporting,Corporate_HQ,Support,9.0,Urban,Small,Autonomous,1.0,1.0,Other,Other,Regulation,Compliance_Officer,3.0,40.0,2.0,0.0,1.0,,0.0,,1.0,1.0,1.0,5.0,3.0,4.0,1.0,1.0,4.0,2.0,,40.0,45.0,31.0
+DEPT-4235,Process Excellence - Emerging Region,Financial_Reporting,Corporate_HQ,Operations,7.0,Remote,,Centralized,3.0,2.0,Other,Other,Regulation,Internal_Audit,2.0,40.0,,1.0,1.0,0.0,0.0,1.0,1.0,1.0,,4.0,4.0,4.0,1.0,4.0,3.0,4.0,,30.0,40.0,47.0
+DEPT-1588,Quality Assurance - Advanced Region,Financial_Reporting,Regional_Operations,Operations,2.0,International,Medium,Autonomous,4.0,3.0,Administrative,,Innovation,Compliance_Officer,3.0,26.0,5.0,0.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,3.0,4.0,3.0,4.0,,3.0,0.0,90.3,89.8,94.0,85.0
+DEPT-3860,Business Integrity - Digital Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8443,Quality Assurance - Elite Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9035,Digital Ethics and Compliance,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,4.0,3.0,Compliance,Other,Restructuring,Internal_Audit,1.0,40.0,0.0,0.0,1.0,1.0,1.0,,1.0,1.0,,3.0,4.0,3.0,2.0,3.0,3.0,4.0,55.0,50.0,55.0,27.0
+DEPT-6636,Emerging Department,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8614,Metro Department,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6341,Global Ethics and Compliance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4531,Regional Business Integrity,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2032,Audit Services - Metro Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5544,Advanced Process Excellence,Financial_Reporting,Regional_Operations,Technology,,Remote,Small,Hybrid,2.0,4.0,Administrative,Compliance,Regulation,Compliance_Officer,1.0,50.0,2.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,3.0,4.0,,2.0,3.0,2.0,27.0,94.5,87.9,74.4,
+DEPT-7822,Process Excellence - Central Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8964,Compliance - Elite Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8325,Ethics and Compliance - Premier Region,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,3.0,1.0,Operations,Other,Regulation,Internal_Audit,1.0,80.0,0.0,1.0,1.0,,,1.0,1.0,1.0,0.0,4.0,3.0,3.0,1.0,2.0,,0.0,50.0,45.0,50.0,15.0
+DEPT-3248,Quality Assurance - West Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2037,West Group,Financial_Reporting,Corporate_HQ,Operations,5.0,Remote,Large,Centralized,2.0,3.0,Administrative,Operations,Regulation,Internal_Audit,1.0,40.0,,1.0,0.0,1.0,1.0,,1.0,0.0,0.0,4.0,4.0,4.0,1.0,1.0,1.0,0.0,35.0,40.0,40.0,10.0
+DEPT-8087,Governance - Beta Region,Risk_Management,Corporate_HQ,Legal,,Urban,Large,Autonomous,,1.0,Compliance,Finance,Restructuring,Internal_Audit,2.0,,5.0,1.0,1.0,1.0,0.0,0.0,0.0,,1.0,2.0,,2.0,1.0,3.0,3.0,2.0,70.0,75.8,,
+DEPT-4401,West Branch,Financial_Reporting,Corporate_HQ,Operations,,Urban,Small,Autonomous,2.0,1.0,,Other,Regulation,Internal_Audit,4.0,20.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,5.0,5.0,2.0,5.0,5.0,0.0,60.0,55.0,55.0,35.0
+DEPT-6831,Audit Services - Core Region,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,Large,Centralized,4.0,2.0,Finance,Other,Expansion,External_Auditor,1.0,40.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,,5.0,4.0,5.0,1.0,3.0,5.0,4.0,50.0,60.0,70.0,22.0
+DEPT-8161,Internal Controls - West Region,Financial_Reporting,Corporate_HQ,Operations,7.0,Urban,Large,Centralized,,3.0,Other,Other,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,,5.0,2.0,3.0,1.0,,2.0,4.0,55.0,55.0,65.0,12.0
+DEPT-6809,Financial Controls - Metro Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9451,Process Excellence - Emerging Region,Financial_Reporting,Corporate_HQ,Support,,,Large,Autonomous,4.0,3.0,Operations,Operations,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,,0.0,0.0,1.0,,1.0,1.0,5.0,2.0,2.0,1.0,2.0,,14.0,75.0,70.0,85.0,
+DEPT-8305,Internal Controls - Global Region,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,Small,Centralized,,2.0,,Other,Regulation,Internal_Audit,1.0,80.0,,0.0,1.0,1.0,,1.0,1.0,1.0,0.0,4.0,,5.0,2.0,,,0.0,55.0,55.0,60.0,30.0
+DEPT-1228,Financial Controls - Innovation Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1573,Legacy Ethics and Compliance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3553,Tactical Group,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Small,Centralized,2.0,2.0,Operations,,Expansion,External_Auditor,,20.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,,0.0,,3.0,3.0,2.0,2.0,2.0,4.0,60.0,55.0,55.0,22.0
+DEPT-9857,Digital Ethics and Compliance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4831,Governance - Strategic Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8159,Quality Assurance - West Region,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Autonomous,2.0,2.0,Other,Other,Expansion,Internal_Audit,1.0,40.0,0.0,1.0,1.0,0.0,0.0,,1.0,1.0,0.0,3.0,3.0,4.0,1.0,1.0,4.0,0.0,65.0,65.0,65.0,
+DEPT-5518,Regional Solutions,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2040,Compliance - North Region,Operational_Compliance,Corporate_HQ,Operations,8.0,Urban,,Hybrid,1.0,1.0,Operations,Technology,Innovation,Internal_Audit,2.0,48.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,,1.0,1.0,5.0,4.0,1.0,5.0,6.0,77.1,83.1,84.3,48.0
+DEPT-2047,Elite Group,Financial_Reporting,Corporate_HQ,Support,5.0,,Large,Centralized,3.0,2.0,Operations,Other,Restructuring,Internal_Audit,2.0,40.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,3.0,5.0,1.0,1.0,2.0,16.0,55.0,50.0,50.0,18.0
+DEPT-8798,Metro Office,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1362,Premier Office,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3677,Premier Business Integrity,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8168,Global Process Excellence,Financial_Reporting,Corporate_HQ,Support,6.0,,Large,Centralized,,3.0,Other,Operations,Restructuring,,,40.0,,1.0,1.0,0.0,1.0,,1.0,,0.0,4.0,3.0,3.0,2.0,4.0,5.0,4.0,55.0,55.0,55.0,32.0
+DEPT-3664,Governance - Central Region,Financial_Reporting,Corporate_HQ,,6.0,Urban,,Centralized,4.0,4.0,Compliance,Compliance,Regulation,External_Auditor,1.0,40.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,5.0,4.0,4.0,1.0,2.0,5.0,6.0,80.0,70.0,70.0,
+DEPT-4841,Financial Controls - Alpha Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2477,Central Services,Risk_Management,Corporate_HQ,Finance,6.0,Suburban,,Autonomous,3.0,4.0,Administrative,Other,Regulation,Compliance_Officer,2.0,,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,2.0,3.0,,2.0,4.0,4.0,3.0,78.2,87.8,89.7,41.5
+DEPT-3819,Regional Team,Financial_Reporting,Corporate_HQ,,5.0,Urban,Large,Centralized,,4.0,Other,Other,Expansion,,1.0,20.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,4.0,3.0,1.0,2.0,4.0,,,65.0,70.0,16.0
+DEPT-7567,Tactical Division,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,Centralized,4.0,4.0,Operations,Operations,Regulation,Internal_Audit,1.0,20.0,0.0,,1.0,0.0,0.0,1.0,,1.0,0.0,3.0,3.0,4.0,2.0,3.0,5.0,0.0,65.0,60.0,60.0,25.0
+DEPT-2187,Regional Business Integrity,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,4.0,,Operations,Operations,,Internal_Audit,,60.0,0.0,0.0,,,1.0,1.0,1.0,1.0,0.0,5.0,3.0,3.0,1.0,,5.0,0.0,75.0,65.0,65.0,20.0
+DEPT-1253,Internal Controls - Central Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3887,Metro Quality Assurance,Financial_Reporting,Corporate_HQ,Operations,,International,,Hybrid,2.0,2.0,Finance,Compliance,Regulation,External_Auditor,4.0,96.0,5.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,,4.0,2.0,5.0,3.0,2.0,5.0,,89.2,85.7,85.0,79.0
+DEPT-9840,Digital Center,Financial_Reporting,Corporate_HQ,Operations,6.0,Remote,Large,Centralized,3.0,3.0,Operations,Operations,Expansion,Internal_Audit,1.0,20.0,0.0,0.0,1.0,0.0,,1.0,1.0,1.0,0.0,4.0,3.0,2.0,3.0,4.0,5.0,0.0,55.0,50.0,50.0,35.0
+DEPT-8484,Strategic Office,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2193,Ethics and Compliance - Central Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7775,Strategic Quality Assurance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6245,Business Integrity - East Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3526,Quality Assurance - Legacy Region,Financial_Reporting,Corporate_HQ,,5.0,Urban,Small,Autonomous,3.0,2.0,Operations,Other,Restructuring,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,2.0,,1.0,1.0,1.0,0.0,75.0,80.0,85.0,10.0
+DEPT-2624,Premier Hub,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8625,Compliance - South Region,Financial_Reporting,Corporate_HQ,Operations,,Urban,Small,Centralized,4.0,3.0,Compliance,Operations,Restructuring,Internal_Audit,1.0,60.0,0.0,0.0,1.0,0.0,1.0,1.0,,,0.0,,,3.0,1.0,1.0,4.0,0.0,70.0,70.0,70.0,10.0
+DEPT-9170,South Team,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7664,Quality Assurance - West Region,Financial_Reporting,Corporate_HQ,,5.0,Urban,Large,Centralized,4.0,4.0,Operations,,Regulation,Internal_Audit,1.0,60.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,,4.0,3.0,3.0,1.0,1.0,5.0,4.0,65.0,70.0,75.0,12.0
+DEPT-4342,Central Operations,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Small,Autonomous,2.0,,Operations,Other,Regulation,Internal_Audit,2.0,40.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,3.0,3.0,1.0,1.0,3.0,18.0,50.0,50.0,50.0,29.0
+DEPT-8693,Business Integrity - Emerging Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,3.0,3.0,Other,Other,Restructuring,Internal_Audit,1.0,60.0,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,3.0,2.0,,1.0,1.0,4.0,2.0,75.0,60.0,65.0,11.0
+DEPT-5039,Regulatory Affairs - Premier Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8150,Strategic Department,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7142,Elite Business Integrity,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,Small,Centralized,4.0,4.0,Other,Other,Expansion,,1.0,20.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,,0.0,4.0,2.0,5.0,3.0,4.0,5.0,2.0,,45.0,55.0,36.0
+DEPT-8200,Elite Hub,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,4.0,2.0,Operations,Other,Regulation,,1.0,40.0,0.0,0.0,1.0,1.0,,,1.0,1.0,0.0,4.0,,3.0,1.0,1.0,5.0,2.0,80.0,75.0,80.0,11.0
+DEPT-5851,West Services,Financial_Reporting,Corporate_HQ,Support,6.0,Remote,Large,Centralized,3.0,,Operations,Other,Expansion,External_Auditor,1.0,60.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,,4.0,1.0,2.0,1.0,1.0,2.0,4.0,55.0,55.0,55.0,
+DEPT-4485,Premier Process Excellence,Financial_Reporting,Regional_Operations,Legal,11.0,International,Medium,,0.0,,Operations,Legal,Merger,External_Auditor,1.0,38.0,5.0,1.0,1.0,0.0,0.0,1.0,,0.0,1.0,1.0,1.0,1.0,5.0,4.0,4.0,16.0,,81.5,82.6,
+DEPT-1863,Elite Branch,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2995,Quality Assurance - Beta Region,Risk_Management,Regional_Operations,Technology,,International,Large,Hybrid,4.0,2.0,Finance,Other,Expansion,Internal_Audit,1.0,64.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,4.0,5.0,4.0,4.0,4.0,2.0,16.0,,84.6,,58.0
+DEPT-3501,Core Group,Financial_Reporting,Corporate_HQ,Support,7.0,Remote,Small,Autonomous,,4.0,Other,Other,Regulation,Compliance_Officer,4.0,20.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,5.0,5.0,4.0,1.0,1.0,5.0,14.0,45.0,45.0,40.0,27.0
+DEPT-2393,Central Unit,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9863,Advanced Branch,Financial_Reporting,Corporate_HQ,Compliance,7.0,Remote,Large,,2.0,,Other,Operations,Merger,Internal_Audit,2.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,2.0,,1.0,1.0,4.0,0.0,45.0,50.0,50.0,10.0
+DEPT-1874,Emerging Branch,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4113,Alpha Unit,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3246,Legacy Services,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,,3.0,3.0,Operations,Operations,Restructuring,Internal_Audit,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,2.0,2.0,3.0,1.0,24.0,45.0,40.0,45.0,37.0
+DEPT-5568,Elite Compliance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9040,Elite Process Excellence,Operational_Compliance,Regional_Operations,Finance,2.0,,Medium,Autonomous,2.0,1.0,Legal,Administrative,Merger,Compliance_Officer,3.0,42.0,5.0,0.0,1.0,1.0,,,0.0,1.0,0.0,,5.0,1.0,,4.0,1.0,7.0,51.6,51.0,50.8,98.5
+DEPT-9428,Audit Services - West Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5074,Risk Management - Digital Region,Financial_Reporting,Corporate_HQ,Technology,9.0,Remote,Medium,Centralized,1.0,4.0,Administrative,,Merger,Compliance_Officer,5.0,93.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,5.0,3.0,1.0,4.0,2.0,3.0,11.0,80.3,84.8,85.7,35.5
+DEPT-2106,Advanced Compliance,Financial_Reporting,Corporate_HQ,Support,7.0,,Small,Autonomous,4.0,2.0,,Other,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,4.0,3.0,2.0,1.0,1.0,4.0,,75.0,70.0,70.0,12.0
+DEPT-4440,West Hub,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5148,Elite Compliance,Financial_Reporting,Corporate_HQ,Support,7.0,Remote,Large,,3.0,4.0,Administrative,Operations,Regulation,External_Auditor,1.0,,0.0,0.0,1.0,0.0,1.0,,1.0,1.0,0.0,4.0,3.0,,2.0,5.0,5.0,2.0,75.0,75.0,85.0,36.0
+DEPT-3798,Audit Services - South Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8793,Regulatory Affairs - Core Region,Financial_Reporting,Corporate_HQ,Support,5.0,Remote,Large,Centralized,3.0,4.0,Operations,Finance,Regulation,Internal_Audit,1.0,60.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,3.0,2.0,1.0,1.0,5.0,2.0,55.0,60.0,60.0,
+DEPT-5341,Elite Department,Financial_Reporting,Corporate_HQ,Support,9.0,Urban,Large,Centralized,,1.0,Administrative,Other,Regulation,Compliance_Officer,1.0,40.0,,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,4.0,2.0,1.0,,5.0,0.0,45.0,50.0,55.0,30.0
+DEPT-2461,East Internal Controls,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3915,Alpha Office,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6895,Legacy Financial Controls,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1147,Core Audit Services,Financial_Reporting,Corporate_HQ,Technology,7.0,Urban,,Centralized,3.0,1.0,Operations,Other,Merger,Internal_Audit,,40.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,5.0,4.0,4.0,3.0,4.0,5.0,0.0,55.0,55.0,70.0,35.0
+DEPT-5828,Metro Compliance,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,3.0,,Other,Other,Expansion,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,2.0,2.0,1.0,2.0,,8.0,70.0,75.0,80.0,19.0
+DEPT-6416,Elite Branch,Financial_Reporting,Corporate_HQ,,10.0,Urban,Large,Autonomous,,2.0,Operations,Other,Regulation,Compliance_Officer,1.0,20.0,2.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,5.0,5.0,3.0,1.0,1.0,5.0,0.0,70.0,75.0,75.0,30.0
+DEPT-6821,Compliance - North Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3590,Tactical Audit Services,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Small,Centralized,1.0,1.0,Operations,,Regulation,Internal_Audit,1.0,40.0,2.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,4.0,4.0,4.0,1.0,3.0,5.0,0.0,50.0,50.0,50.0,40.0
+DEPT-3962,Alpha Hub,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9653,Prime Regulatory Affairs,Operational_Compliance,Corporate_HQ,Finance,14.0,Suburban,Small,,0.0,3.0,Legal,Legal,Merger,Compliance_Officer,4.0,63.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,1.0,2.0,2.0,4.0,4.0,8.0,71.8,76.1,,64.0
+DEPT-8429,East Group,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8091,Innovation Solutions,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9549,Regional Process Excellence,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8379,Emerging Financial Controls,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9654,Advanced Compliance,Financial_Reporting,Corporate_HQ,Support,,Urban,Large,Centralized,4.0,4.0,,Compliance,Regulation,Internal_Audit,2.0,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,,2.0,1.0,1.0,5.0,6.0,65.0,,70.0,13.0
+DEPT-3845,Global Compliance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5353,Regulatory Affairs - East Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,4.0,2.0,Other,,,Internal_Audit,2.0,60.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,3.0,,1.0,1.0,3.0,0.0,80.0,80.0,80.0,10.0
+DEPT-4100,Tactical Unit,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8925,Beta Internal Controls,Financial_Reporting,Corporate_HQ,Operations,7.0,Urban,Small,Autonomous,4.0,1.0,Operations,Other,Restructuring,Internal_Audit,2.0,20.0,,,0.0,0.0,1.0,,1.0,1.0,1.0,4.0,5.0,4.0,2.0,,,22.0,55.0,55.0,50.0,41.0
+DEPT-4933,Risk Management - Advanced Region,Financial_Reporting,Corporate_HQ,Operations,7.0,Urban,Small,Centralized,4.0,4.0,,,Expansion,Internal_Audit,,,,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,4.0,4.0,1.0,3.0,5.0,0.0,55.0,,,20.0
+DEPT-2307,Elite Ethics and Compliance,Financial_Reporting,Corporate_HQ,Technology,6.0,Urban,Large,Centralized,4.0,4.0,,Other,Regulation,Internal_Audit,,20.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,3.0,4.0,4.0,1.0,4.0,5.0,4.0,60.0,65.0,65.0,27.0
+DEPT-6310,Process Excellence - Metro Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7787,Process Excellence - East Region,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Large,Autonomous,3.0,2.0,Other,Operations,Regulation,Compliance_Officer,,60.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,1.0,1.0,4.0,3.0,3.0,5.0,1.0,5.0,10.0,60.0,55.0,55.0,35.0
+DEPT-9396,Compliance - Beta Region,Financial_Reporting,Corporate_HQ,Compliance,11.0,Suburban,Medium,Centralized,4.0,1.0,,Operations,Merger,,2.0,78.0,0.0,,1.0,1.0,,0.0,1.0,1.0,,4.0,4.0,2.0,4.0,2.0,2.0,29.0,79.6,86.7,88.2,
+DEPT-4703,Beta Office,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Small,Centralized,3.0,3.0,Other,Other,Expansion,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,,1.0,1.0,1.0,1.0,5.0,3.0,3.0,2.0,3.0,1.0,32.0,,,70.0,41.0
+DEPT-3061,Tactical Quality Assurance,Financial_Reporting,Corporate_HQ,Operations,12.0,Urban,Large,Centralized,3.0,1.0,Operations,Operations,Merger,Internal_Audit,1.0,20.0,3.0,0.0,0.0,0.0,,,0.0,1.0,1.0,5.0,4.0,5.0,5.0,5.0,1.0,12.0,35.0,40.0,25.0,86.0
+DEPT-6622,Financial Controls - Global Region,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Small,Centralized,1.0,,Other,Administrative,Restructuring,Internal_Audit,1.0,60.0,0.0,,1.0,0.0,0.0,0.0,1.0,0.0,,4.0,4.0,3.0,2.0,3.0,,4.0,55.0,60.0,70.0,27.0
+DEPT-6874,Internal Controls - South Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6157,South Financial Controls,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Small,Centralized,2.0,4.0,Other,Finance,Regulation,External_Auditor,2.0,40.0,,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,2.0,2.0,1.0,2.0,5.0,2.0,70.0,60.0,65.0,16.0
+DEPT-6669,Central Group,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,4.0,4.0,Finance,Finance,Expansion,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,4.0,4.0,,1.0,1.0,,0.0,80.0,80.0,85.0,10.0
+DEPT-8515,Regulatory Affairs - Elite Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Autonomous,3.0,3.0,Finance,Other,Expansion,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,3.0,,3.0,1.0,3.0,3.0,10.0,60.0,65.0,70.0,25.0
+DEPT-7577,Legacy Internal Controls,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2146,Financial Controls - Metro Region,Financial_Reporting,Corporate_HQ,Operations,7.0,Urban,Large,Centralized,4.0,4.0,Compliance,Compliance,Expansion,Internal_Audit,1.0,40.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,4.0,5.0,,1.0,3.0,2.0,0.0,65.0,65.0,65.0,20.0
+DEPT-5298,Ethics and Compliance - Prime Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5403,Legacy Hub,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2996,Strategic Internal Controls,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,2.0,3.0,Other,Other,Regulation,,2.0,60.0,0.0,,1.0,0.0,0.0,0.0,1.0,,,3.0,2.0,3.0,2.0,,1.0,4.0,65.0,60.0,65.0,22.0
+DEPT-9694,Governance - North Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1918,Governance - Core Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5651,Risk Management - Strategic Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8819,North Process Excellence,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,3.0,4.0,Administrative,Operations,Restructuring,,1.0,60.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,4.0,4.0,3.0,,4.0,5.0,14.0,40.0,45.0,40.0,52.0
+DEPT-5540,Audit Services - Global Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5561,Global Compliance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7887,Process Excellence - North Region,Operational_Compliance,Corporate_HQ,,12.0,Suburban,Large,Hybrid,3.0,4.0,Compliance,Finance,Restructuring,Compliance_Officer,4.0,,5.0,1.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,5.0,1.0,5.0,5.0,4.0,1.0,10.0,96.7,92.4,89.2,100.0
+DEPT-9655,Compliance - Elite Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4672,Premier Risk Management,Financial_Reporting,Corporate_HQ,Support,7.0,Remote,Large,,2.0,4.0,Administrative,Other,,External_Auditor,1.0,60.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,4.0,4.0,3.0,1.0,1.0,,0.0,75.0,75.0,75.0,10.0
+DEPT-9598,North Risk Management,Financial_Reporting,Corporate_HQ,Finance,6.0,Remote,Medium,Autonomous,1.0,3.0,Finance,Legal,Expansion,,4.0,,2.0,1.0,,,0.0,1.0,1.0,1.0,0.0,4.0,1.0,2.0,5.0,1.0,4.0,29.0,62.8,60.3,59.8,64.5
+DEPT-3788,South Office,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5098,Tactical Department,Financial_Reporting,Corporate_HQ,Finance,7.0,Urban,,Centralized,4.0,3.0,Finance,Other,Regulation,Internal_Audit,2.0,40.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,2.0,5.0,,,,5.0,8.0,75.0,75.0,75.0,29.0
+DEPT-1662,West Services,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5640,Central Process Excellence,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6589,Regulatory Affairs - North Region,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,,2.0,2.0,Administrative,Other,Restructuring,Internal_Audit,1.0,40.0,1.0,1.0,0.0,0.0,,1.0,1.0,1.0,,3.0,1.0,2.0,1.0,1.0,5.0,,40.0,50.0,50.0,26.0
+DEPT-2136,Ethics and Compliance - Regional Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,2.0,3.0,,,Restructuring,External_Auditor,2.0,20.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,3.0,3.0,3.0,1.0,4.0,3.0,4.0,60.0,65.0,65.0,27.0
+DEPT-5896,Compliance - West Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5079,Global Services,Financial_Reporting,Corporate_HQ,Support,7.0,Remote,Small,Centralized,2.0,2.0,Operations,Operations,,Internal_Audit,1.0,60.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,3.0,3.0,2.0,2.0,,3.0,0.0,55.0,55.0,50.0,20.0
+DEPT-4477,Business Integrity - East Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,2.0,2.0,Administrative,Administrative,Regulation,Internal_Audit,1.0,60.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,3.0,3.0,1.0,1.0,4.0,0.0,60.0,60.0,65.0,10.0
+DEPT-6846,Business Integrity - Regional Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5855,Quality Assurance - Metro Region,Financial_Reporting,Corporate_HQ,Support,7.0,,Small,Centralized,2.0,2.0,Operations,Other,Regulation,Internal_Audit,2.0,40.0,0.0,,1.0,0.0,0.0,1.0,1.0,,1.0,4.0,4.0,4.0,2.0,3.0,5.0,6.0,60.0,60.0,60.0,28.0
+DEPT-2818,Compliance - West Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9396,East Division,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4261,Alpha Business Integrity,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Small,Centralized,,3.0,Finance,Operations,Regulation,Internal_Audit,2.0,20.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,,,4.0,1.0,4.0,1.0,8.0,60.0,60.0,75.0,
+DEPT-7099,Beta Branch,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,3.0,2.0,Other,,Regulation,External_Auditor,1.0,40.0,,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,5.0,4.0,2.0,1.0,1.0,3.0,,70.0,70.0,75.0,12.0
+DEPT-7472,Elite Governance,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,Large,Centralized,,2.0,Operations,Other,Regulation,Internal_Audit,2.0,20.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,4.0,4.0,5.0,2.0,,5.0,8.0,35.0,40.0,35.0,34.0
+DEPT-3975,Premier Operations,Financial_Reporting,Corporate_HQ,,8.0,Urban,Large,Centralized,1.0,1.0,Other,Other,Restructuring,Internal_Audit,2.0,60.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,,5.0,5.0,1.0,,2.0,0.0,70.0,70.0,70.0,15.0
+DEPT-4280,Prime Department,Financial_Reporting,Corporate_HQ,,9.0,Remote,Large,Centralized,3.0,2.0,Administrative,Operations,Restructuring,Compliance_Officer,1.0,,,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,5.0,3.0,4.0,,2.0,5.0,0.0,55.0,50.0,50.0,20.0
+DEPT-2150,Metro Quality Assurance,Financial_Reporting,Corporate_HQ,Support,9.0,Urban,Large,Centralized,3.0,3.0,Other,Other,Expansion,,1.0,80.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,3.0,3.0,1.0,2.0,,4.0,,60.0,60.0,17.0
+DEPT-7279,Business Integrity - Beta Region,Financial_Reporting,Corporate_HQ,Compliance,12.0,International,,,0.0,,Technology,Compliance,Regulation,,1.0,,0.0,,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4.0,2.0,1.0,4.0,3.0,1.0,66.1,65.9,65.8,25.5
+DEPT-3213,Tactical Hub,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6441,Advanced Hub,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2992,Central Ethics and Compliance,Financial_Reporting,Corporate_HQ,Support,7.0,Remote,Large,Centralized,4.0,4.0,Operations,Operations,Expansion,,2.0,60.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,5.0,3.0,4.0,1.0,1.0,5.0,0.0,35.0,35.0,40.0,10.0
+DEPT-2980,Risk Management - Metro Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8481,Quality Assurance - Prime Region,Risk_Management,Corporate_HQ,Compliance,2.0,International,Medium,Hybrid,4.0,1.0,Operations,Operations,Expansion,External_Auditor,3.0,80.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,,5.0,5.0,2.0,4.0,2.0,6.0,,86.4,87.0,33.0
+DEPT-2612,Prime Department,Risk_Management,Corporate_HQ,,5.0,,Medium,Autonomous,4.0,1.0,Compliance,Technology,Restructuring,Board_Committee,4.0,41.0,3.0,0.0,0.0,,1.0,0.0,0.0,1.0,,4.0,5.0,1.0,5.0,3.0,4.0,14.0,80.7,68.2,53.6,
+DEPT-2977,Tactical Division,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9743,East Internal Controls,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9871,Audit Services - Premier Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6380,Risk Management - Regional Region,Financial_Reporting,Corporate_HQ,,5.0,Urban,Large,Centralized,4.0,,Operations,,,External_Auditor,2.0,40.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,,,4.0,4.0,2.0,3.0,5.0,,60.0,55.0,60.0,27.0
+DEPT-3298,Innovation Quality Assurance,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,Small,Centralized,2.0,1.0,Administrative,Other,Regulation,Internal_Audit,4.0,40.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,4.0,3.0,2.0,4.0,5.0,3.0,2.0,45.0,50.0,55.0,46.0
+DEPT-3019,North Internal Controls,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,Centralized,,2.0,Administrative,Other,Regulation,Internal_Audit,1.0,40.0,,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,4.0,3.0,2.0,1.0,1.0,5.0,6.0,65.0,60.0,65.0,13.0
+DEPT-8518,Global Business Integrity,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6832,Digital Ethics and Compliance,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,Centralized,,3.0,Other,Other,Merger,External_Auditor,2.0,20.0,,0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,3.0,5.0,1.0,,1.0,5.0,4.0,55.0,55.0,55.0,12.0
+DEPT-7421,North Group,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4591,Metro Compliance,Financial_Reporting,Corporate_HQ,Support,8.0,,Large,Centralized,1.0,1.0,Administrative,Other,Regulation,Internal_Audit,3.0,20.0,3.0,0.0,1.0,0.0,,0.0,1.0,0.0,0.0,5.0,2.0,5.0,1.0,5.0,4.0,6.0,55.0,50.0,55.0,63.0
+DEPT-3187,Compliance - Legacy Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2923,Prime Solutions,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8270,Central Unit,Risk_Management,Regional_Operations,Finance,10.0,Remote,Large,Centralized,2.0,2.0,,Operations,Expansion,,1.0,100.0,,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,2.0,3.0,5.0,5.0,2.0,25.0,87.9,87.1,86.9,72.5
+DEPT-2337,Advanced Solutions,Financial_Reporting,Corporate_HQ,Support,5.0,Remote,Large,Centralized,1.0,1.0,Administrative,Other,Restructuring,Internal_Audit,2.0,80.0,0.0,,1.0,1.0,1.0,1.0,1.0,1.0,0.0,3.0,1.0,2.0,1.0,1.0,1.0,4.0,65.0,65.0,65.0,12.0
+DEPT-3611,Quality Assurance - Central Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1416,West Internal Controls,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,,Centralized,3.0,2.0,Other,Other,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,,,3.0,4.0,1.0,3.0,3.0,2.0,,90.0,85.0,
+DEPT-6372,Ethics and Compliance - Alpha Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9785,East Quality Assurance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9896,Ethics and Compliance - Prime Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3310,Legacy Operations,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4539,Beta Operations,Financial_Reporting,Corporate_HQ,Operations,,Urban,Large,Centralized,1.0,2.0,Administrative,Operations,Merger,Compliance_Officer,,40.0,0.0,,0.0,0.0,,0.0,1.0,1.0,0.0,4.0,4.0,4.0,4.0,5.0,5.0,16.0,50.0,55.0,60.0,53.0
+DEPT-3813,Alpha Ethics and Compliance,Financial_Reporting,Corporate_HQ,Support,,Urban,Large,Centralized,3.0,2.0,Other,Other,Restructuring,Internal_Audit,1.0,40.0,0.0,0.0,,0.0,0.0,1.0,1.0,,1.0,4.0,3.0,2.0,,3.0,,,60.0,65.0,75.0,25.0
+DEPT-4289,Risk Management - Tactical Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6139,North Audit Services,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7286,Quality Assurance - Strategic Region,Financial_Reporting,Corporate_HQ,Support,7.0,Remote,Large,Centralized,2.0,2.0,Other,Other,,Internal_Audit,1.0,20.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,5.0,3.0,2.0,1.0,2.0,3.0,21.0,65.0,65.0,65.0,25.5
+DEPT-3941,Strategic Sector,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,3.0,3.0,Other,Other,Restructuring,External_Auditor,1.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,,3.0,2.0,1.0,2.0,5.0,0.0,55.0,65.0,65.0,15.0
+DEPT-6148,Regional Operations,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2227,Regulatory Affairs - Digital Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6945,Premier Risk Management,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,,4.0,4.0,Other,Other,Expansion,Internal_Audit,,,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,5.0,3.0,4.0,1.0,2.0,1.0,4.0,60.0,65.0,65.0,17.0
+DEPT-7812,East Business Integrity,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1270,Financial Controls - Metro Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5604,Tactical Audit Services,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5209,North Business Integrity,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,4.0,3.0,Finance,Operations,Expansion,Internal_Audit,1.0,80.0,0.0,0.0,0.0,0.0,1.0,,1.0,1.0,0.0,4.0,2.0,2.0,1.0,1.0,2.0,2.0,85.0,85.0,85.0,11.0
+DEPT-6253,Alpha Branch,Financial_Reporting,Corporate_HQ,Operations,5.0,,Large,Centralized,4.0,3.0,,Administrative,,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,,1.0,4.0,5.0,2.0,,1.0,5.0,0.0,65.0,70.0,75.0,10.0
+DEPT-5849,Alpha Services,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,1.0,2.0,Operations,Operations,Merger,,1.0,,,,1.0,0.0,1.0,1.0,1.0,1.0,1.0,,3.0,3.0,1.0,,3.0,0.0,50.0,45.0,55.0,15.0
+DEPT-2997,Risk Management - Strategic Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Small,Centralized,2.0,2.0,Other,Other,Regulation,,,20.0,0.0,0.0,1.0,0.0,,1.0,1.0,1.0,1.0,3.0,4.0,4.0,1.0,3.0,5.0,2.0,65.0,60.0,60.0,21.0
+DEPT-7890,Regulatory Affairs - Innovation Region,Financial_Reporting,Corporate_HQ,Operations,,Urban,,Centralized,4.0,2.0,Finance,Operations,Merger,Internal_Audit,1.0,20.0,,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,2.0,2.0,4.0,2.0,4.0,,0.0,55.0,55.0,55.0,30.0
+DEPT-6100,Global Quality Assurance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2746,Beta Sector,Financial_Reporting,Corporate_HQ,Support,,Urban,Large,Centralized,4.0,3.0,Other,Other,Expansion,Internal_Audit,1.0,40.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,3.0,,5.0,2.0,4.0,1.0,,55.0,45.0,50.0,38.0
+DEPT-9866,Audit Services - South Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1947,North Division,Financial_Reporting,Corporate_HQ,,7.0,Urban,Large,,3.0,3.0,Other,Operations,Expansion,Internal_Audit,1.0,,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,4.0,3.0,5.0,3.0,5.0,5.0,0.0,85.0,90.0,85.0,40.0
+DEPT-4299,Risk Management - Strategic Region,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Small,Autonomous,2.0,1.0,Other,Other,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,,0.0,0.0,,1.0,1.0,1.0,4.0,3.0,4.0,1.0,3.0,5.0,2.0,60.0,60.0,65.0,21.0
+DEPT-8069,Emerging Business Integrity,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2527,Governance - Regional Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,3.0,4.0,Operations,,Regulation,Internal_Audit,1.0,60.0,0.0,0.0,,0.0,0.0,1.0,1.0,1.0,0.0,4.0,4.0,5.0,1.0,3.0,5.0,8.0,55.0,65.0,70.0,24.0
+DEPT-6616,Strategic Regulatory Affairs,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1552,Metro Unit,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8600,Beta Audit Services,Financial_Reporting,Corporate_HQ,Operations,5.0,Remote,,,3.0,4.0,Administrative,Compliance,Regulation,Internal_Audit,4.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,,3.0,,,1.0,5.0,2.0,60.0,55.0,55.0,11.0
+DEPT-9746,Financial Controls - Strategic Region,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Small,Centralized,1.0,2.0,Other,Operations,Expansion,External_Auditor,1.0,40.0,0.0,,0.0,,1.0,,1.0,1.0,0.0,4.0,4.0,3.0,1.0,1.0,1.0,0.0,65.0,65.0,50.0,10.0
+DEPT-2756,Risk Management - East Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3292,Governance - Innovation Region,Financial_Reporting,Corporate_HQ,Operations,6.0,Remote,Large,,4.0,,,Compliance,Regulation,Internal_Audit,1.0,20.0,,0.0,0.0,0.0,1.0,1.0,,1.0,0.0,3.0,5.0,5.0,2.0,5.0,4.0,8.0,70.0,70.0,75.0,
+DEPT-3384,Emerging Unit,Financial_Reporting,Corporate_HQ,Support,8.0,,Small,Centralized,,0.0,Other,Finance,Regulation,Internal_Audit,2.0,88.0,0.0,0.0,,,0.0,1.0,0.0,0.0,0.0,2.0,,1.0,3.0,3.0,5.0,17.0,67.5,64.3,63.6,38.5
+DEPT-2856,Premier Risk Management,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8460,Regulatory Affairs - Digital Region,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Small,Centralized,4.0,3.0,Operations,Operations,Expansion,External_Auditor,1.0,40.0,,1.0,0.0,0.0,1.0,1.0,1.0,,1.0,4.0,4.0,4.0,,4.0,2.0,0.0,65.0,60.0,60.0,30.0
+DEPT-5433,Prime Regulatory Affairs,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,,2.0,2.0,Other,Other,Restructuring,Compliance_Officer,1.0,60.0,0.0,0.0,1.0,,0.0,1.0,1.0,1.0,1.0,4.0,5.0,2.0,1.0,1.0,3.0,0.0,70.0,70.0,75.0,10.0
+DEPT-8201,Premier Risk Management,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,,Centralized,1.0,1.0,Other,Operations,Regulation,,1.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,4.0,2.0,1.0,2.0,5.0,0.0,60.0,60.0,60.0,15.0
+DEPT-8246,Quality Assurance - Global Region,Financial_Reporting,Corporate_HQ,Legal,6.0,Urban,Small,Centralized,,2.0,,Other,,Internal_Audit,,40.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,1.0,1.0,3.0,3.0,3.0,1.0,2.0,3.0,,55.0,55.0,50.0,23.0
+DEPT-7207,Governance - Regional Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2612,South Department,Financial_Reporting,Corporate_HQ,Operations,7.0,Remote,Large,Centralized,2.0,,Operations,Other,,Internal_Audit,4.0,20.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,4.0,5.0,5.0,5.0,4.0,2.0,55.0,50.0,50.0,51.0
+DEPT-8380,Risk Management - Emerging Region,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,1.0,3.0,Administrative,Operations,,Internal_Audit,1.0,40.0,0.0,0.0,0.0,0.0,1.0,0.0,,,1.0,4.0,,5.0,1.0,1.0,3.0,,70.0,65.0,65.0,10.0
+DEPT-2157,Advanced Business Integrity,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,1.0,1.0,Other,,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,,,1.0,0.0,0.0,4.0,4.0,4.0,1.0,3.0,1.0,0.0,,75.0,75.0,20.0
+DEPT-2896,Prime Risk Management,Financial_Reporting,Corporate_HQ,Operations,,Urban,Small,Autonomous,4.0,2.0,Finance,Finance,Merger,External_Auditor,2.0,20.0,0.0,0.0,0.0,0.0,,1.0,1.0,0.0,0.0,5.0,5.0,,3.0,4.0,5.0,4.0,50.0,45.0,45.0,37.0
+DEPT-4191,Alpha Quality Assurance,Financial_Reporting,Corporate_HQ,,7.0,Urban,Large,Centralized,4.0,3.0,Finance,Operations,Expansion,Internal_Audit,1.0,60.0,0.0,0.0,1.0,0.0,,1.0,1.0,1.0,0.0,4.0,2.0,2.0,1.0,2.0,3.0,0.0,85.0,90.0,90.0,15.0
+DEPT-3747,Central Quality Assurance,Financial_Reporting,Corporate_HQ,Operations,9.0,,Small,Autonomous,4.0,,Operations,Administrative,Expansion,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,3.0,1.0,,1.0,1.0,,55.0,65.0,70.0,12.0
+DEPT-6945,Central Quality Assurance,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,2.0,1.0,Other,Other,Restructuring,Internal_Audit,1.0,20.0,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,,5.0,2.0,1.0,1.0,5.0,4.0,45.0,,50.0,12.0
+DEPT-3062,Risk Management - South Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1095,Alpha Group,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9845,Strategic Compliance,Financial_Reporting,Regional_Operations,Support,13.0,International,Medium,,,3.0,Technology,Administrative,Merger,Board_Committee,2.0,,,0.0,1.0,,1.0,0.0,1.0,0.0,0.0,2.0,3.0,2.0,5.0,4.0,4.0,11.0,69.8,69.5,69.4,50.5
+DEPT-3473,Beta Group,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Small,Centralized,4.0,3.0,Compliance,Other,Regulation,Internal_Audit,1.0,20.0,0.0,,0.0,0.0,,0.0,1.0,1.0,0.0,5.0,4.0,5.0,1.0,1.0,3.0,7.0,70.0,70.0,75.0,13.5
+DEPT-9662,Business Integrity - North Region,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Small,Centralized,2.0,1.0,Other,Other,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,4.0,2.0,3.0,1.0,2.0,5.0,0.0,65.0,70.0,,15.0
+DEPT-7071,Process Excellence - Metro Region,Financial_Reporting,Corporate_HQ,Operations,,Urban,Large,,4.0,4.0,Compliance,Compliance,,,1.0,20.0,0.0,0.0,,0.0,0.0,1.0,,1.0,1.0,3.0,3.0,2.0,2.0,1.0,5.0,16.0,45.0,45.0,40.0,23.0
+DEPT-9646,Regional Sector,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1026,Premier Governance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5368,Advanced Unit,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9477,Global Department,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Autonomous,3.0,3.0,Other,Finance,Expansion,External_Auditor,,80.0,0.0,,0.0,,0.0,1.0,1.0,0.0,0.0,4.0,3.0,3.0,1.0,1.0,,10.0,50.0,50.0,50.0,15.0
+DEPT-2646,Legacy Business Integrity,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9801,Process Excellence - Legacy Region,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Small,Centralized,2.0,2.0,Other,Other,Restructuring,Compliance_Officer,1.0,40.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,4.0,3.0,3.0,1.0,1.0,2.0,0.0,50.0,45.0,60.0,10.0
+DEPT-3143,Legacy Unit,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,1.0,1.0,Administrative,Other,Regulation,External_Auditor,1.0,40.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,5.0,3.0,3.0,1.0,,3.0,2.0,45.0,55.0,55.0,11.0
+DEPT-2882,Core Services,Financial_Reporting,Regional_Operations,Technology,4.0,Remote,Medium,Hybrid,2.0,4.0,Other,Compliance,Innovation,Compliance_Officer,4.0,72.0,2.0,,0.0,0.0,0.0,0.0,0.0,1.0,0.0,3.0,4.0,5.0,1.0,5.0,3.0,,75.9,81.3,82.4,61.0
+DEPT-3290,Tactical Quality Assurance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4798,Internal Controls - Global Region,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,2.0,3.0,,Operations,Regulation,External_Auditor,1.0,20.0,,1.0,1.0,0.0,1.0,0.0,1.0,1.0,1.0,3.0,,2.0,1.0,3.0,3.0,0.0,55.0,55.0,60.0,20.0
+DEPT-8113,Metro Financial Controls,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,1.0,,Administrative,,Regulation,Internal_Audit,1.0,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,5.0,3.0,3.0,1.0,1.0,3.0,0.0,60.0,55.0,60.0,10.0
+DEPT-7486,Risk Management - Premier Region,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,3.0,2.0,Other,Other,Restructuring,Internal_Audit,1.0,,0.0,0.0,1.0,0.0,0.0,0.0,,1.0,0.0,5.0,4.0,,1.0,1.0,5.0,,60.0,,60.0,12.0
+DEPT-9586,Prime Services,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-2706,South Quality Assurance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6380,Legacy Governance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-4035,Prime Division,Financial_Reporting,Corporate_HQ,Support,7.0,,Small,Autonomous,3.0,,Operations,Other,Restructuring,Internal_Audit,,40.0,0.0,1.0,1.0,0.0,0.0,,1.0,,0.0,,3.0,3.0,1.0,1.0,5.0,0.0,60.0,60.0,65.0,10.0
+DEPT-8455,Tactical Center,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,Centralized,,3.0,Operations,Other,Expansion,Internal_Audit,1.0,20.0,0.0,,0.0,,1.0,1.0,1.0,1.0,0.0,4.0,5.0,5.0,1.0,3.0,1.0,6.0,70.0,65.0,65.0,23.0
+DEPT-5343,Alpha Internal Controls,Financial_Reporting,Corporate_HQ,,8.0,Remote,Small,Centralized,,2.0,Operations,,Expansion,Internal_Audit,2.0,60.0,0.0,0.0,1.0,,1.0,1.0,,1.0,0.0,5.0,4.0,,1.0,1.0,4.0,0.0,70.0,75.0,75.0,10.0
+DEPT-4228,West Group,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-1089,Compliance - East Region,Financial_Reporting,Corporate_HQ,Support,,Urban,Small,Autonomous,4.0,4.0,,Other,Restructuring,Internal_Audit,1.0,40.0,0.0,,1.0,1.0,0.0,1.0,1.0,1.0,1.0,,2.0,4.0,1.0,1.0,4.0,0.0,70.0,75.0,75.0,10.0
+DEPT-3865,Tactical Group,Financial_Reporting,Corporate_HQ,Operations,7.0,Urban,Small,Centralized,2.0,3.0,Operations,Operations,Expansion,External_Auditor,1.0,40.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,5.0,3.0,3.0,1.0,3.0,3.0,0.0,50.0,55.0,55.0,20.0
+DEPT-6268,Quality Assurance - Legacy Region,Financial_Reporting,Corporate_HQ,,5.0,Urban,Large,Centralized,4.0,3.0,Compliance,Other,Regulation,Internal_Audit,2.0,40.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,5.0,4.0,3.0,1.0,,3.0,0.0,60.0,60.0,65.0,15.0
+DEPT-9480,North Ethics and Compliance,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,,Centralized,2.0,1.0,Other,Other,Restructuring,Internal_Audit,,40.0,0.0,0.0,,0.0,0.0,1.0,1.0,1.0,1.0,4.0,2.0,5.0,1.0,2.0,1.0,8.0,70.0,70.0,75.0,19.0
+DEPT-9204,Prime Governance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-3712,East Unit,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,,Centralized,2.0,2.0,Other,Other,Expansion,Internal_Audit,1.0,20.0,0.0,0.0,0.0,,0.0,0.0,1.0,,0.0,5.0,4.0,2.0,1.0,2.0,5.0,6.0,75.0,70.0,75.0,18.0
+DEPT-2692,Alpha Operations,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,3.0,3.0,Operations,Other,Restructuring,Internal_Audit,,60.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,4.0,2.0,2.0,2.0,3.0,5.0,10.0,55.0,55.0,55.0,30.0
+DEPT-4463,Financial Controls - Advanced Region,Financial_Reporting,Corporate_HQ,Operations,9.0,Urban,Large,Centralized,3.0,2.0,Operations,Administrative,,Internal_Audit,1.0,20.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,1.0,4.0,5.0,4.0,1.0,1.0,4.0,6.0,55.0,45.0,55.0,13.0
+DEPT-6359,Financial Controls - Strategic Region,Financial_Reporting,Regional_Operations,Legal,13.0,Urban,Large,Autonomous,4.0,0.0,Administrative,Finance,Expansion,Internal_Audit,4.0,,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,1.0,1.0,5.0,1.0,3.0,,3.0,4.0,56.1,51.8,,37.0
+DEPT-6273,Global Business Integrity,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5876,Ethics and Compliance - Innovation Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6779,Regulatory Affairs - Advanced Region,Operational_Compliance,Corporate_HQ,Support,4.0,Suburban,Large,Centralized,0.0,0.0,Finance,Finance,Restructuring,Internal_Audit,1.0,52.0,4.0,0.0,1.0,1.0,,1.0,1.0,1.0,,1.0,4.0,1.0,3.0,2.0,1.0,0.0,64.4,69.9,71.0,65.0
+DEPT-9141,East Quality Assurance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7872,Compliance - Digital Region,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Autonomous,2.0,1.0,Other,Other,Regulation,Internal_Audit,2.0,60.0,0.0,,,0.0,1.0,,1.0,1.0,1.0,3.0,2.0,3.0,1.0,2.0,3.0,0.0,75.0,75.0,80.0,15.0
+DEPT-3827,West Unit,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6930,Financial Controls - Central Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8100,Financial Controls - Global Region,Financial_Reporting,Corporate_HQ,Operations,7.0,Urban,Small,Centralized,4.0,3.0,Compliance,Other,Regulation,Internal_Audit,2.0,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,,0.0,4.0,4.0,4.0,4.0,4.0,4.0,0.0,50.0,55.0,55.0,40.0
+DEPT-2241,Alpha Business Integrity,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8627,Governance - South Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7315,Regional Center,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Small,Centralized,1.0,2.0,Other,Administrative,Restructuring,,,40.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,,4.0,,2.0,1.0,1.0,5.0,0.0,70.0,65.0,70.0,10.0
+DEPT-4042,Compliance - West Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9230,Innovation Services,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7613,South Unit,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Autonomous,4.0,1.0,Other,Other,Restructuring,Internal_Audit,1.0,40.0,0.0,,0.0,0.0,1.0,1.0,1.0,,,5.0,3.0,3.0,1.0,2.0,5.0,0.0,70.0,65.0,65.0,15.0
+DEPT-5723,Governance - Beta Region,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,,4.0,,Finance,Finance,,External_Auditor,1.0,20.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,0.0,5.0,4.0,2.0,1.0,1.0,5.0,0.0,55.0,60.0,60.0,10.0
+DEPT-1945,Financial Controls - Innovation Region,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Small,Centralized,1.0,1.0,Other,Other,Restructuring,Internal_Audit,2.0,40.0,0.0,0.0,,0.0,0.0,0.0,1.0,0.0,,4.0,,3.0,1.0,1.0,3.0,,65.0,65.0,65.0,11.0
+DEPT-1576,Strategic Ethics and Compliance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-5314,Compliance - Premier Region,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,Centralized,1.0,2.0,,Operations,Regulation,,1.0,40.0,0.0,0.0,,0.0,0.0,0.0,1.0,0.0,1.0,,3.0,4.0,2.0,4.0,1.0,6.0,55.0,55.0,,33.0
+DEPT-8815,Beta Division,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,2.0,1.0,Other,Other,Regulation,Internal_Audit,3.0,20.0,0.0,0.0,0.0,0.0,0.0,,1.0,1.0,0.0,4.0,3.0,3.0,1.0,,4.0,7.0,75.0,80.0,80.0,13.5
+DEPT-2800,North Audit Services,Financial_Reporting,Corporate_HQ,Operations,7.0,Urban,Large,Centralized,3.0,3.0,,Other,Expansion,External_Auditor,1.0,40.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,4.0,3.0,4.0,1.0,4.0,4.0,4.0,55.0,45.0,50.0,
+DEPT-7153,Prime Governance,Financial_Reporting,Corporate_HQ,Support,8.0,Urban,Large,Centralized,2.0,2.0,,Other,Regulation,Internal_Audit,4.0,40.0,0.0,0.0,0.0,0.0,1.0,,1.0,0.0,1.0,,2.0,5.0,1.0,1.0,2.0,2.0,50.0,45.0,50.0,11.0
+DEPT-7764,Regulatory Affairs - Strategic Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-7322,East Risk Management,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-6120,Risk Management - Digital Region,Financial_Reporting,Corporate_HQ,,,Urban,Large,Centralized,,3.0,Other,Other,Expansion,External_Auditor,1.0,80.0,0.0,,1.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,3.0,3.0,1.0,1.0,3.0,0.0,80.0,85.0,,10.0
+DEPT-5803,Compliance - Tactical Region,Financial_Reporting,Corporate_HQ,Support,8.0,Remote,Large,Centralized,4.0,4.0,Compliance,Other,Expansion,Internal_Audit,2.0,40.0,,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,,4.0,2.0,2.0,4.0,,50.0,55.0,60.0,24.0
+DEPT-9790,Core Office,Financial_Reporting,Corporate_HQ,Legal,,Remote,Large,Centralized,0.0,2.0,Administrative,Operations,Restructuring,Compliance_Officer,5.0,84.0,0.0,0.0,0.0,,0.0,1.0,1.0,1.0,,1.0,4.0,,4.0,2.0,2.0,6.0,54.9,54.0,53.9,33.0
+DEPT-4286,Global Hub,Financial_Reporting,Corporate_HQ,Support,5.0,Remote,Large,Centralized,3.0,4.0,Operations,Compliance,Regulation,External_Auditor,2.0,60.0,0.0,0.0,1.0,,0.0,1.0,1.0,1.0,1.0,4.0,2.0,2.0,2.0,2.0,5.0,,50.0,55.0,60.0,20.0
+DEPT-4553,Internal Controls - Central Region,Risk_Management,Regional_Operations,Finance,12.0,Remote,Small,Hybrid,3.0,3.0,Administrative,Legal,Regulation,,4.0,,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,,2.0,2.0,2.0,1.0,,0.0,61.5,,59.3,15.0
+DEPT-5760,Financial Controls - Prime Region,Financial_Reporting,Corporate_HQ,,6.0,,Large,Centralized,4.0,3.0,Other,,Regulation,Internal_Audit,1.0,60.0,0.0,1.0,1.0,,0.0,1.0,1.0,1.0,0.0,5.0,3.0,5.0,1.0,1.0,3.0,2.0,60.0,65.0,65.0,11.0
+DEPT-1341,Innovation Department,Financial_Reporting,Corporate_HQ,Support,7.0,Urban,Large,Centralized,2.0,2.0,Other,Other,Regulation,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,0.0,,1.0,0.0,,4.0,2.0,2.0,1.0,1.0,3.0,4.0,70.0,65.0,65.0,12.0
+DEPT-5828,Compliance - Digital Region,Financial_Reporting,Corporate_HQ,Support,5.0,,Large,Centralized,4.0,2.0,Other,Other,Expansion,Internal_Audit,1.0,60.0,0.0,0.0,1.0,0.0,1.0,,1.0,1.0,0.0,5.0,3.0,3.0,1.0,3.0,1.0,,75.0,75.0,75.0,22.0
+DEPT-4527,Central Compliance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9013,Risk Management - Core Region,Financial_Reporting,Corporate_HQ,Operations,8.0,Urban,,Centralized,2.0,1.0,Other,Other,Expansion,Internal_Audit,2.0,,0.0,0.0,0.0,0.0,1.0,,1.0,,1.0,4.0,3.0,1.0,1.0,,5.0,10.0,60.0,65.0,70.0,15.0
+DEPT-5748,Tactical Compliance,Financial_Reporting,Corporate_HQ,Support,6.0,Urban,Large,Centralized,4.0,3.0,Finance,Other,Restructuring,Internal_Audit,1.0,40.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,4.0,3.0,5.0,1.0,5.0,2.0,2.0,,,75.0,31.0
+DEPT-3539,Ethics and Compliance - Central Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8041,Risk Management - Core Region,Financial_Reporting,Corporate_HQ,Compliance,5.0,Urban,Large,Centralized,2.0,2.0,Operations,Operations,Restructuring,External_Auditor,1.0,80.0,0.0,0.0,1.0,0.0,,1.0,1.0,1.0,,5.0,5.0,,1.0,2.0,5.0,6.0,70.0,65.0,65.0,18.0
+DEPT-1754,Governance - Tactical Region,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-9975,South Sector,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,4.0,3.0,Compliance,,Expansion,,1.0,40.0,0.0,0.0,0.0,0.0,0.0,1.0,,1.0,0.0,4.0,4.0,1.0,1.0,1.0,1.0,,60.0,65.0,70.0,10.0
+DEPT-2279,Strategic Center,Risk_Management,Corporate_HQ,Finance,,Urban,Small,Autonomous,4.0,3.0,Operations,Finance,Restructuring,Compliance_Officer,3.0,16.0,4.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,2.0,4.0,2.0,1.0,5.0,1.0,30.0,56.5,59.5,,85.0
+DEPT-8327,Alpha Operations,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,4.0,2.0,Other,Other,Regulation,Internal_Audit,1.0,80.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,3.0,3.0,1.0,1.0,3.0,0.0,55.0,,50.0,10.0
+DEPT-1235,Governance - Regional Region,Financial_Reporting,Corporate_HQ,Support,5.0,Urban,Large,Centralized,2.0,2.0,Other,Other,Regulation,Internal_Audit,1.0,80.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,5.0,,2.0,1.0,1.0,3.0,4.0,50.0,50.0,50.0,12.0
+DEPT-1852,Digital Unit,Financial_Reporting,Corporate_HQ,Operations,6.0,Urban,Large,Centralized,4.0,4.0,Operations,Operations,,Internal_Audit,1.0,20.0,0.0,0.0,0.0,1.0,1.0,1.0,,1.0,0.0,,3.0,2.0,1.0,2.0,5.0,4.0,70.0,75.0,75.0,17.0
+DEPT-8168,Digital Compliance,Operational_Compliance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DEPT-8517,Tactical Sector,Financial_Reporting,Corporate_HQ,Operations,5.0,Urban,Large,Centralized,4.0,4.0,Operations,Other,,Internal_Audit,1.0,20.0,0.0,,1.0,1.0,1.0,0.0,1.0,1.0,0.0,,3.0,3.0,1.0,1.0,5.0,,60.0,,60.0,11.0

@@ -1,0 +1,40 @@
+table_name,field_name,data_type,description
+departments,dept_id,string,Unique department identifier
+departments,dept_name,string,Department name
+departments,dept_category,string,"Primary compliance category (Financial_Reporting, Operational_Compliance, Risk_Management)"
+departments,division,string,"Organizational division (Corporate_HQ, Regional_Operations)"
+departments,dept_type,string,"Department type (Operations, Support, Compliance, Finance, Technology, Legal)"
+departments,dept_age_years,integer,Age of department in years since establishment
+departments,location_type,string,"Geographic location type (Urban, Remote, Suburban, International)"
+departments,team_size,string,"Team size category (Small, Medium, Large)"
+departments,reporting_structure,string,"Reporting hierarchy (Centralized, Autonomous, Hybrid)"
+departments,manager_experience_level,integer,Manager experience level (0=none to 4=extensive)
+departments,supervisor_experience_level,integer,Supervisor experience level (0=none to 4=extensive)
+departments,primary_function,string,Primary business function
+departments,secondary_function,string,Secondary business function
+departments,creation_reason,string,"Reason for department creation (Merger, Expansion, Regulation, Restructuring, Innovation)"
+departments,oversight_body,string,"Primary oversight entity (Internal_Audit, External_Auditor, Compliance_Officer, Board_Committee)"
+departments,reporting_lag_days,integer,Average delay in compliance reporting (days)
+departments,training_hours_quarterly,integer,Compliance training hours per quarter
+departments,violations_past_3years,integer,Number of compliance violations in past 3 years
+departments,reporting_gaps_annual,integer,Number of missed or incomplete reports annually
+departments,remediation_plan_active,integer,"Active remediation plan in place (0=No, 1=Yes)"
+departments,executive_support,integer,"Executive leadership support confirmed (0=No, 1=Yes)"
+departments,external_consulting,integer,"External compliance consultants engaged (0=No, 1=Yes)"
+departments,engagement_programs,integer,"Employee engagement programs active (0=No, 1=Yes)"
+departments,onboarding_program,integer,"Compliance onboarding program exists (0=No, 1=Yes)"
+departments,improvement_commitment,integer,"Formal commitment to continuous improvement (0=No, 1=Yes)"
+departments,digital_systems,integer,"Digital compliance management systems in use (0=No, 1=Yes)"
+departments,external_partnerships,integer,"Active external compliance partnerships (0=No, 1=Yes)"
+departments,interdept_collaboration_score,integer,Inter-departmental collaboration quality (1=Very Low to 5=Very High)
+departments,resource_availability_score,integer,Resource availability for compliance (1=Very Low to 5=Very High)
+departments,external_interactions_frequency,integer,Frequency of external stakeholder interactions (1=Rare to 5=Very Frequent)
+departments,risk_exposure_operational,integer,Operational risk exposure level (1=Very Low to 5=Very High)
+departments,risk_exposure_financial,integer,Financial risk exposure level (1=Very Low to 5=Very High)
+departments,operational_health_index,integer,Overall operational health (1=Poor to 5=Excellent)
+departments,overall_risk_score,float,Composite risk score (weighted combination of risk factors)
+departments,audit_score_q1,float,First quarter audit score (0-100)
+departments,audit_score_q2,float,Second quarter audit score (0-100)
+departments,compliance_score_final,float,Final annual compliance score (0-100) - PRIMARY TARGET
+_metadata,project_,string,Luiss ML/AI-project
+_metadata,academic_year,string,2025-2026

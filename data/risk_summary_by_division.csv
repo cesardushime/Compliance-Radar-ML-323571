@@ -1,0 +1,3 @@
+division,avg_compliance_score,std_compliance_score,min_compliance_score,max_compliance_score,total_violations,avg_risk_score,dept_count
+Corporate_HQ,63.24547677261614,13.36901727400414,0.0,95.0,122.0,24.463636363636365,428
+Regional_Operations,76.05416666666666,13.777895944833762,50.8,100.0,55.0,64.0,27
