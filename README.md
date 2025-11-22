@@ -64,7 +64,7 @@ Rather than removing any rows — which would distort the dataset and break alig
 
 **Final decision:**
 All department records were kept; no row deletions performed.
-A new feature (`id_conflict_flag`) indicates whether a `dept_id` appears multiple times with inconsistent attributes.
+A new feature (`id_conflict' flag)  indicates whether a 'dept_id' appears multiple times with inconsistent attributes.
 
 This preserves data fidelity while enabling the model to learn from potential instability signals.
 
