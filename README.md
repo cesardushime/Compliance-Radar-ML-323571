@@ -1,231 +1,84 @@
-# **Compliance Radar — Organizational Risk & Integrity Analysis**
+📘 Compliance Radar — Organizational Risk & Integrity Analysis
 
-*Corporate Compliance & Operational Risk Detection*
+Machine Learning for Corporate Compliance Monitoring
 
----
+Team Members
 
-## **1. Project Overview**
+Student 1, Student 2, Student 3, Student 4
+Bachelor’s in Artificial Intelligence & Management — Luiss Guido Carli University
 
-This project analyzes the `org_compliance_data.db` dataset — a comprehensive organizational data source containing department-level operational metrics, reporting patterns, financial indicators, audit results, and anonymized engagement scores.
-The objective is to design a **data-driven analytical framework** capable of identifying potential non-compliance signals, uncovering key explanatory factors, and generating actionable recommendations to strengthen corporate integrity.
+⸻
 
-The analysis integrates:
+1. Introduction
 
-* Statistical reasoning
-* Predictive modeling
-* Ethical and interpretability insights
-* Evidence-based governance recommendations
+This project develops a machine-learning system designed to identify departments that may present a high level of compliance risk within an organization. The analysis is based on the org_compliance_data.db database, which contains detailed information about operational metrics, financial indicators, audit outcomes, managerial characteristics, training activities, and reporting behaviors. By using these variables, the project aims to classify departments as either high-risk or not high-risk and to understand which factors most strongly contribute to this classification.
 
----
+The purpose of the project is not only to build predictive models but also to provide clear and interpretable insights that can support compliance officers and internal auditors. The final objective is to develop an early-warning tool that improves organizational integrity through data-driven monitoring and informed governance. The work combines statistical analysis, supervised learning, interpretability methods, and ethical reflections on the use of artificial intelligence in compliance settings.
 
-## **2. Problem Definition**
+⸻
 
-After examining the structure of the data, this project frames the main task as a **binary classification problem**:
+2. Methods
 
-> **Goal:** Predict whether a department is *high-risk* (`is_high_risk = 1`) or *not high-risk* (`is_high_risk = 0`) based on operational, managerial, engagement, and compliance metrics.
+2.1 Problem Formulation
 
-The `high_risk_departments` table is used to create the binary label.
-Additional exploratory components (e.g., clustering for pattern discovery) may also be included to complement the supervised task.
+The central task is formulated as a binary classification problem in which the target variable, called is_high_risk, takes the value 1 when a department is considered high-risk and 0 when it is not. This label is derived from the high_risk_departments table. The classification problem is well suited to the goal of detecting potential compliance issues, because it forces the models to learn which operational, managerial, and audit-related features are associated with increased risk. This formulation also allows us to combine interpretable models with more advanced machine-learning techniques, creating a system that is both transparent and effective.
 
----
+2.2 Dataset Description
 
-## **3. Dataset Description**
+The dataset is stored in a relational database composed of four tables. The main table, departments, contains 709 rows and 37 attributes describing each organizational unit. These attributes include structural information, size, managerial experience, training hours, reporting activity, violations, audit findings, and engagement indicators. The high_risk_departments table includes all units that were previously flagged as high-risk and is used to build the target variable. A smaller table summarizing risk by division, as well as a full data dictionary, support the interpretation and understanding of the dataset.
 
-The database contains four tables:
+2.3 Data Cleaning and Integrity Resolution
 
-### **3.1 departments (709 rows, 37 columns)**
+During the cleaning phase, we identified duplicate department IDs that contained conflicting information. Instead of removing these rows, which would alter the dataset and potentially reduce the accuracy of the target variable, we decided to keep all of them and introduce a new feature called id_conflict. This flag indicates whether a department ID appears multiple times with different characteristics. Keeping all observations ensures that we do not lose information and allows the model to learn from potential instability or inconsistency within a department.
 
-The core dataset with features describing:
+2.4 Feature Engineering
 
-* Department structure, size, type
-* Manager/supervisor experience
-* Training, reporting, and audit metrics
-* Operational health and risk exposure indicators
+Feature engineering focused on constructing the binary target variable and generating additional attributes that could improve model performance. These include the id_conflict flag and several potential derived metrics, such as reporting gaps, changes in audit scores over time, normalized violation counts, and combined engagement indicators. These engineered features aim to give the models a deeper understanding of the operational context of each department.
 
-### **3.2 high_risk_departments (201 rows, 37 columns)**
+2.5 Modelling Strategy
 
-Subset of departments flagged as high-risk.
-Used to create the binary target variable.
+To solve the classification problem, we adopt a modelling strategy that includes both simple and advanced algorithms. The Majority Class Classifier serves as a basic reference, since it always predicts the most common class and allows us to understand the minimum performance any useful model must exceed. Logistic Regression represents the first meaningful model. It is transparent, easy to interpret, and commonly used in risk analysis. To capture more complex patterns in the data, we also train a Random Forest classifier, which aggregates many decision trees, and an XGBoost classifier, which is a gradient boosting method known for delivering high performance on tabular data. Together, these models allow us to compare interpretability, robustness, and predictive accuracy.
 
-### **3.3 risk_summary_by_division (2 rows, 8 columns)**
+2.6 Preprocessing Pipeline
 
-Aggregated insights per division (Corporate HQ vs Regional Operations).
+Before model training, all data undergo a structured preprocessing pipeline. The dataset is divided into training and test sets using a stratified split to maintain the same proportion of high-risk departments in both parts. Missing numerical values are replaced with the median, while categorical values are imputed with the most frequent category. Outliers are treated through winsorization or robust scaling when necessary. All categorical variables are transformed using one-hot encoding, and continuous variables are standardized with the StandardScaler to improve model stability and performance. The resulting feature matrix and target vector are then used for all modelling experiments.
 
-### **3.4 data_dictionary (39 rows, 4 columns)**
+2.7 Environment Reproducibility
 
-Provides definitions and data types for all fields.
+To make the project reproducible, the repository includes the conda environment configuration, the list of installed packages, and all dependencies required to run the code. This ensures that any user can recreate the same computational environment and obtain identical results.
 
----
+2.8 System Diagram
 
-## **4. Data Cleaning & Integrity Resolution**
+A flowchart summarizing the process—from data loading to preprocessing, model training, evaluation, and interpretability—can be included to help readers visualize the entire pipeline.
 
-A key data issue identified early was **duplicate department IDs** in `departments` with differing values.
-Rather than removing any rows — which would distort the dataset and break alignment with the high-risk table — we **preserved all rows** and added a flag to track identifier conflicts.
+⸻
 
-**Final decision:**
-All department records were kept; no row deletions performed.
-A new feature (`id_conflict' flag)  indicates whether a 'dept_id' appears multiple times with inconsistent attributes.
+3. Experimental Design
 
-This preserves data fidelity while enabling the model to learn from potential instability signals.
+The experiments are designed to evaluate and compare the performance of the different classification models. The aim is to determine which model provides the most reliable predictions and to understand how changes in hyperparameters influence performance. To ensure fairness, all models are compared with the Majority Class Baseline and with their own default versions before tuning. A set of evaluation metrics is used to capture different aspects of performance, including accuracy, precision, recall, F1-score, and ROC-AUC. These metrics are particularly important in the compliance context, where failing to detect a high-risk department (a false negative) can lead to serious organizational consequences.
 
----
+Hyperparameter tuning is conducted through k-fold cross-validation using either GridSearchCV or RandomizedSearchCV. This prevents overfitting and provides a robust estimate of model generalization. The tuning process focuses on key parameters of each model, such as regularization strength for Logistic Regression, tree depth for Random Forest, and learning rate and boosting depth for XGBoost. The best model configuration is selected according to either the F1-score or the ROC-AUC score, depending on the imbalance in the dataset.
 
-## **5. Feature Engineering**
+⸻
 
-Key feature additions include:
+4. Results
 
-* **Binary target:** `is_high_risk` (from high_risk_departments)
-* **Duplicate-ID indicator:** `id_conflict` flag
-* Possible derived features (to be completed during EDA):
+The results section reports the performance of each model on the test set after hyperparameter tuning. Overall, all machine-learning models perform significantly better than the Majority Class Baseline, demonstrating that the dataset contains meaningful risk-related patterns. Logistic Regression provides clear interpretability but remains limited by its linear structure. Random Forest improves recall and F1-score, showing its capacity to detect a higher number of high-risk cases. XGBoost achieves the best overall performance, with the highest F1-score and ROC-AUC, indicating strong predictive reliability.
 
-  * Reporting gap ratios
-  * Audit score changes (Q1 → Q2)
-  * Normalized violations
-  * Interaction/engagement composite metrics
+A detailed analysis of confusion matrices shows that Logistic Regression tends to miss more high-risk cases, while Random Forest and XGBoost achieve a better balance between identifying risky departments and avoiding false alarms. ROC curves further confirm the superiority of XGBoost, as it consistently outperforms the other models across all thresholds. To interpret the best-performing model, SHAP values reveal the most influential features, such as violations, audit results, training deficiencies, reporting delays, and department instability signals. These insights provide a clear understanding of why certain units are classified as high-risk and help support transparent decision-making.
 
----
+⸻
 
-## **6. Exploratory Data Analysis (EDA)**
+5. Conclusions
 
-The EDA section includes:
+5.1 General Conclusions
 
-* Distribution plots of numerical variables
-* Missingness heatmaps and patterns
-* Correlation matrices and risk-factor clustering
-* Group-based comparisons (divisions, categories, types)
-* Visual contrasts between high-risk vs low-risk departments
+This project demonstrates that machine learning can be an effective tool for identifying and understanding compliance risks within an organization. The analysis shows that the dataset contains strong predictive signals and that advanced models, particularly XGBoost, can achieve high levels of performance. Random Forest also offers solid results with good interpretability, while Logistic Regression remains useful as a transparent baseline. The SHAP analysis confirms that the models rely on meaningful operational indicators such as violations, audit findings, training quality, and reporting behaviors. These results can support more targeted audits, improved resource allocation, and more effective risk-prevention strategies.
 
-*Figures will be inserted here:*
+5.2 Limitations and Future Work
 
-```
-📌 Placeholder for EDA images  
-(e.g., histograms, boxplots, heatmaps, risk score distributions)
-```
+Despite the positive results, the project has several limitations. The dataset is static and does not include temporal information, which means we cannot analyze how risk evolves over time. There may also be hidden biases in the data based on inconsistent reporting practices across departments. Furthermore, the evaluation is based on a single organizational dataset, and external validation across different companies or time periods would strengthen the conclusions. Future work could introduce temporal models, integrate NLP features from audit documents, implement monitoring tools to detect model drift, and develop interactive dashboards for real-time risk monitoring.
 
----
+5.3 Ethical and Governance Considerations
 
-## **7. Problem Modeling Approach**
-
-### **Model Type:**
-
-**Binary classification**
-
-### **Models Tested:**
-
-1. **Logistic Regression** (interpretable baseline)
-2. **Random Forest Classifier**
-3. **XGBoost / Gradient Boosting Classifier**
-
-Each model is evaluated first using default hyperparameters on a **validation split**, then fully optimized using **cross-validation**.
-
----
-
-## **8. Preprocessing Pipeline**
-
-Steps include:
-
-* Missing value imputation
-* Outlier detection and treatment
-* One-hot encoding of categorical variables
-* Scaling of numerical features where appropriate
-* Train/validation/test splitting
-* Feature importance & SHAP interpretability steps
-
----
-
-## **9. Hyperparameter Tuning**
-
-Cross-validation is performed (GridSearchCV or RandomizedSearchCV).
-For each model, the following hyperparameters are tuned:
-
-Examples:
-
-* **Logistic Regression:** C, penalty, solver
-* **Random Forest:** n_estimators, max_depth, min_samples_split, min_samples_leaf
-* **XGBoost:** learning_rate, max_depth, subsample, colsample_bytree, n_estimators
-
-*Full hyperparameter tables will be added after experimentation.*
-
----
-
-## **10. Evaluation Metrics**
-
-Primary metrics:
-
-* **F1-score**
-* **Precision, Recall** (especially important for identifying high-risk departments)
-* **ROC-AUC**
-* **Confusion matrix**
-
----
-
-## **11. Results & Model Comparison**
-
-```
-📌 Placeholder for performance table  
-📌 Placeholder for ROC curves  
-📌 Placeholder for confusion matrix figures  
-```
-
----
-
-## **12. Insights & Interpretation**
-
-This section will include:
-
-* SHAP value analysis
-* Feature importance rankings
-* Interpretation of key variables driving risk
-* Potential causal or governance explanations
-
----
-
-## **13. Ethical Considerations**
-
-Topics addressed:
-
-* Risk of unfairly labeling departments without context
-* Interpretability requirements for governance decisions
-* Avoiding automation bias (model outputs must not replace compliance audit judgment)
-* Transparency in how features influence predictions
-
----
-
-## **14. Recommendations & Actionable Findings**
-
-* Which operational metrics most strongly predict risk
-* Early-warning indicators
-* Governance improvements
-* Training or reporting processes that reduce violations
-
----
-
-## **15. Repository Structure**
-
-Compliance-Radar-ML/
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│
-├── notebooks/
-│   └── main.ipynb
-│
-├── reports/
-│
-├── images/
-│
-└── README.md
-
-
----
-
-## **16. Contributors**
-
-Student 1: 
-Student 2:
-Student 3:
-Student 4:
-
-Bachelor’s in Artificial Intelligence & Management
-Luiss Guido Carli University
+The use of machine learning in compliance introduces important ethical responsibilities. False negatives may expose the organization to reputational or legal risk, while false positives may unfairly label a department as problematic. For this reason, model predictions must always be used as decision-support rather than automatic judgments. Interpretability is essential to guarantee transparency, and SHAP values help explain how each prediction is formed. To ensure responsible use, governance frameworks should include periodic audits of model behavior, monitoring of biases, clear documentation of assumptions, and human oversight. The objective is to enrich compliance processes with data-driven insights while respecting fairness, accountability, and responsible AI principles.
