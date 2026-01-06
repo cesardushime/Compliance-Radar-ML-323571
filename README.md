@@ -4,8 +4,9 @@
 ### *Machine Learning for Corporate Compliance Monitoring*
 
 **Team Members:**
-Cesar Dushimimana, Student 2, Student 3, Student 4
+Cesar Dushimimana, Naz Dogan, Matteo Finizio
 Bachelor’s in Artificial Intelligence & Management — Luiss Guido Carli University
+Course: Machine Learning
 
 ---
 
@@ -117,9 +118,9 @@ Models are evaluated using metrics appropriate for imbalanced classification and
 * F1-score
 * ROC-AUC
 
-![Logistic Regression: Confusion Matrix](images/confusion_matrix_logistic_regression.png)
+![ROC Curve: Logistic Regression, SVM, Random Forest](image-2.png)
 
-![Random Forest: Confusion Matrix](images/confusion_matrix_random_forest.png)
+![Top 2 Models: Logistic Regression & Random Forest](images/model_performance_comparison.png)
 
 Stratified train-test splitting preserves class proportions. Hyperparameter tuning is conducted via cross-validation, with recall prioritized due to the high cost of failing to identify high-risk departments.
 
