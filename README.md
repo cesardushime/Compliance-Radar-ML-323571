@@ -67,10 +67,8 @@ Feature engineering focused on preserving semantic meaning while ensuring model 
 
 To balance interpretability and predictive performance, the following models were implemented:
 
-* Majority Class Baseline
 * Logistic Regression
 * Random Forest
-* XGBoost
 
 Logistic Regression serves as a transparent baseline model, while tree-based models capture non-linear relationships and interaction effects relevant to compliance risk.
 
@@ -91,24 +89,21 @@ Completed preprocessing steps include:
 Exploratory visualizations:
 
 * **Numeric feature distributions**
-  `![Distributions](images/distributions_numeric.png)`
+  ![Numeric Columns Distributions](image.png)
 
-* **Boolean feature distributions by risk status**
-![Numeric Columns Distributions](image.png)
+* **Categorical Features distributions by risk status**
+
 ![Categorical Columns Ditribution](image-1.png)
+
+* **Reporting Gaps Annual By High_risk Status**
+
+![Reporting Gaps Annual By High_risk Status](images/reporting_gaps_annual_by_high_risk_status.png)
 
 ---
 
 ## **2.7 Environment Reproducibility**
 
 The repository includes environment configuration files and a structured directory layout (`data/`, `notebooks/`, `images/`, `reports/`) to ensure full reproducibility of all experiments and results.
-
----
-
-## **2.8 System Diagram**
-
-A system-level workflow diagram summarizes the process  through preprocessifrom loading data from the database file, modeling, evaluation, and interpretation:
-
 
 ---
 
@@ -121,7 +116,9 @@ Models are evaluated using metrics appropriate for imbalanced classification and
 * Recall
 * F1-score
 * ROC-AUC
+
 ![Logistic Regression: Confusion Matrix](images/confusion_matrix_logistic_regression.png)
+
 ![Random Forest: Confusion Matrix](images/confusion_matrix_random_forest.png)
 
 Stratified train-test splitting preserves class proportions. Hyperparameter tuning is conducted via cross-validation, with recall prioritized due to the high cost of failing to identify high-risk departments.
@@ -133,15 +130,15 @@ Stratified train-test splitting preserves class proportions. Hyperparameter tuni
 Results show clear performance differences across models:
 
 * **Logistic Regression** achieves high recall for high-risk departments, minimizing false negatives but producing more false positives.
-* **Random Forest** provides the strongest overall performance, maintaining high recall while substantially improving precision and reducing false alarms.
+* **Random Forest** provides the strongest overall performance, maintaining high recall while substantially improving precision and reducing false decisions.
 * Feature importance and coefficient analysis identify violations, operational risk exposure, audit outcomes, and organizational instability as the most influential risk drivers.
 
 Result visualizations:
+![Correlation Matrix](images/correlation_matrix_numerical_features.png)
+![Top 10 Drivers Affecting High Risk Prediction](images/top_10_features_logistic_regression.png)
 
-`![Confusion Matrix](images/confusion_matrix.png)`
-`![ROC Curve](images/roc_curve.png)`
-`![Feature Importance](images/feature_importance.png)`
-`![SHAP Summary](images/shap_summary.png)`
+![ROC Curve Analysis](images/roc_curve_logistic_regression.png)
+
 
 ---
 
@@ -157,11 +154,10 @@ This project demonstrates that machine learning can effectively support organiza
 
 Limitations include the static nature of the dataset, potential reporting inconsistencies, and the absence of temporal dynamics. Future work may include:
 
-* longitudinal and temporal risk modeling
 * integration of unstructured audit text data
 * interactive dashboards for compliance monitoring
-* model drift detection and governance frameworks
-* external validation on additional organizations or time periods
+* model underlying governance frameworks
+* external validation on additional organizations
 
 ---
 
