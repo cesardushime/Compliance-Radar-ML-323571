@@ -4,7 +4,7 @@
 ### *Machine Learning for Corporate Compliance Monitoring*
 
 **Team Members:**
-Cesar Dushimimana, Naz Dogan, Matteo Finizio
+Cesar Dushimimana, Naz Dogan, Matteo Finizio, Yazan Elhaj-Houssen
 
 Bachelor’s in Artificial Intelligence & Management — Luiss Guido Carli University
 Course: Machine Learning
