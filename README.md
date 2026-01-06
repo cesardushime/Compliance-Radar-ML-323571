@@ -3,7 +3,7 @@
 ### *Machine Learning for Corporate Compliance Monitoring*
 
 **Team Members:**
-Student 1, Student 2, Student 3, Student 4
+Cesar Dushimimana, Student 2, Student 3, Student 4
 Bachelor’s in Artificial Intelligence & Management — Luiss Guido Carli University
 
 ---

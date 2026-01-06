@@ -1,6 +1,6 @@
 feature,coefficient,abs_impact,direction
-violations_past_3years,2.0220391888834555,2.0220391888834555,Positive
-risk_exposure_operational,1.6398236905745327,1.6398236905745327,Positive
-overall_risk_score,1.121001597426731,1.121001597426731,Positive
-secondary_function_Operations,0.9933157623619456,0.9933157623619456,Positive
-dept_type_Finance,0.8667045061713795,0.8667045061713795,Positive
+violations_past_3years,2.0220391888838747,2.0220391888838747,Positive
+risk_exposure_operational,1.6398236905753578,1.6398236905753578,Positive
+overall_risk_score,1.121001597427066,1.121001597427066,Positive
+secondary_function_Operations,0.9933157623613166,0.9933157623613166,Positive
+dept_type_Finance,0.8667045061715573,0.8667045061715573,Positive
