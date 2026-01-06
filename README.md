@@ -1,3 +1,4 @@
+
 # 📘 **Compliance Radar — Organizational Risk & Integrity Analysis**
 
 ### *Machine Learning for Corporate Compliance Monitoring*
@@ -10,9 +11,9 @@ Bachelor’s in Artificial Intelligence & Management — Luiss Guido Carli Unive
 
 # **1. Introduction**
 
-This project develops a machine-learning system designed to identify departments with elevated compliance risk. Using the `org_compliance_data.db` database, which contains operational, managerial, audit, reporting, and engagement metrics, we classify each department as either *high-risk* or *not high-risk*.
+This project develops a machine-learning system to identify organizational departments with elevated compliance risk. Using the `org_compliance_data.db` database, which contains detailed operational, managerial, audit, reporting, and engagement information, departments are classified as either *high-risk* or *not high-risk*.
 
-The aim is not only to build predictive models but also to provide interpretable insights for compliance officers through statistical analysis, supervised learning, and responsible AI practices. The final goal is to develop an early-warning tool that supports organizational integrity and governance.
+Beyond prediction, the project emphasizes interpretability and responsible AI. The objective is to provide compliance officers and governance teams with an early-warning decision-support tool that highlights key drivers of risk while ensuring transparency, accountability, and ethical use of machine learning in compliance contexts.
 
 ---
 
@@ -20,131 +21,126 @@ The aim is not only to build predictive models but also to provide interpretable
 
 ## **2.1 Problem Formulation**
 
-The task is formulated as a binary classification problem, where the target variable `is_high_risk` equals 1 for departments included in the `high_risk_departments` table and 0 otherwise. The objective is to learn which operational and managerial characteristics are associated with elevated compliance risk.
+The task is formulated as a binary classification problem. The target variable, `is_high_risk`, equals 1 for departments listed in the `high_risk_departments` table and 0 otherwise. The goal is to learn which organizational, managerial, and operational factors are associated with increased compliance risk, with particular emphasis on minimizing false negatives.
 
 ---
 
 ## **2.2 Dataset Description**
 
-The database contains four tables.
-The main table, **departments**, includes **709 rows and 37 attributes**, covering:
+The dataset is stored in a relational database composed of four tables. The primary table, **departments**, contains **709 observations and 37 attributes**, describing:
 
-* organizational structure
-* managerial experience
-* violations and incidents
-* audit outcomes
-* reporting and engagement indicators
-* training activity
-* operational and risk scores
+* organizational structure and function
+* managerial and supervisory experience
+* audit outcomes and compliance scores
+* violations and remediation activity
+* reporting behavior and engagement indicators
+* operational and financial risk exposure
 
-The `dept_id` is preserved for reporting and interpretability but is not used as a predictive feature.
+The `dept_id` identifier is retained exclusively for reporting, grouping, and interpretability purposes and is not used as a predictive feature.
 
 ---
 
 ## **2.3 Data Cleaning and Integrity Resolution**
 
-* Duplicate `dept_id` values were identified. Since these represent meaningful inconsistencies rather than errors, all records were kept to preserve information.
-* Missing values in numerical features were imputed using the median.
-* Missing categorical values were imputed using the most frequent category.
-* No rows were removed, maintaining dataset completeness.
+Data integrity checks revealed duplicate `dept_id` values with conflicting attributes. These observations were retained, as they represent meaningful organizational inconsistencies rather than data errors. Missing values were handled as follows:
+
+* Numerical features were imputed using the median.
+* Categorical features were imputed using the most frequent category.
+* No observations were removed, preserving dataset completeness and class distribution.
 
 ---
 
 ## **2.4 Feature Engineering**
 
-Completed feature engineering steps:
+Feature engineering focused on preserving semantic meaning while ensuring model compatibility:
 
-* Construction of the `is_high_risk` target variable from the high-risk department list.
-* Binary-like columns were inspected and converted to Boolean types when strictly containing 0/1 values; otherwise, they were treated as categorical.
+* The `is_high_risk` target variable was constructed from the high-risk department list.
+* Strictly binary-like features were converted to Boolean type.
+* Mixed binary-like features were treated as categorical variables.
 * Ordinal experience variables (`manager_experience_level`, `supervisor_experience_level`) were retained as ordered numeric variables (0–4).
-* Rating-based operational metrics (1–5 scales) were kept as numeric ordered values.
-* `dept_id` was retained only for reporting, grouping, and visualization but excluded from modeling.
+* Rating-scale variables (1–5 operational and collaboration scores) were preserved as ordered numeric features.
+* The `dept_id` field was excluded from all modeling steps.
 
 ---
 
 ## **2.5 Modelling Strategy**
 
-The modelling approach will include:
+To balance interpretability and predictive performance, the following models were implemented:
 
 * Majority Class Baseline
 * Logistic Regression
 * Random Forest
 * XGBoost
 
-This provides a balance between interpretability and performance.
+Logistic Regression serves as a transparent baseline model, while tree-based models capture non-linear relationships and interaction effects relevant to compliance risk.
 
 ---
 
 ## **2.6 Preprocessing Pipeline**
 
-Current preprocessing progress:
+Completed preprocessing steps include:
 
-* Missing value imputation completed.
-* Conversion of binary-like features completed.
-* Ordinal and rating-scale features validated and retained as numeric variables.
-* Numerical distributions analyzed.
-* Outlier identification completed using histograms and boxplots.
-* Categorical variables identified for upcoming encoding.
-* Numerical variables prepared for future scaling and transformation.
-* `dept_id` excluded from all preprocessing and modeling steps.
+* Missing value imputation.
+* Validation and conversion of binary-like features.
+* Verification of ordinal and rating-scale variables.
+* Distributional analysis of all numerical features.
+* Outlier identification using histograms and boxplots.
+* Identification of categorical variables for encoding.
+* Exclusion of `dept_id` from preprocessing and modeling.
 
-Placeholders for images:
+Exploratory visualizations:
 
-* **Feature distributions**
+* **Numeric feature distributions**
   `![Distributions](images/distributions_numeric.png)`
 
-* **Boolean feature distributions by high-risk status**
-  `![Boolean Distributions](images/distributions_by_high_risk.png)`
-
-* **Boxplots for outlier detection**
-  `![Outliers](images/outliers_boxplots.png)`
-
-Additional preprocessing (encoding, scaling, train-test split) will be completed before model training.
+* **Boolean feature distributions by risk status**
+![Numeric Columns Distributions](image.png)
+![Categorical Columns Ditribution](image-1.png)
 
 ---
 
 ## **2.7 Environment Reproducibility**
 
-The repository includes environment configuration files and a structured directory layout (data/, notebooks/, images/, models/), ensuring reproducibility of all results.
+The repository includes environment configuration files and a structured directory layout (`data/`, `notebooks/`, `images/`, `reports/`) to ensure full reproducibility of all experiments and results.
 
 ---
 
 ## **2.8 System Diagram**
 
-A workflow diagram illustrating the process from data loading to interpretation will be included:
+A system-level workflow diagram summarizes the process  through preprocessifrom loading data from the database file, modeling, evaluation, and interpretation:
 
-`![System Diagram](images/system_diagram.png)`
 
 ---
 
 # **3. Experimental Design**
 
-Model performance will be evaluated using:
+Models are evaluated using metrics appropriate for imbalanced classification and compliance risk detection:
 
 * Accuracy
 * Precision
 * Recall
 * F1-score
 * ROC-AUC
+![Logistic Regression: Confusion Matrix](images/confusion_matrix_logistic_regression.png)
+![Random Forest: Confusion Matrix](images/confusion_matrix_random_forest.png)
 
-Stratified train-test splitting and cross-validation will be used to ensure robustness. Hyperparameter tuning will be performed using grid search or randomized search depending on model complexity.
+Stratified train-test splitting preserves class proportions. Hyperparameter tuning is conducted via cross-validation, with recall prioritized due to the high cost of failing to identify high-risk departments.
 
 ---
 
 # **4. Results**
 
-This section will report model performance once training and evaluation are completed.
-Planned figures include:
+Results show clear performance differences across models:
 
-* Confusion matrices
-* ROC curves
-* Feature importance plots
-* SHAP value explanations
+* **Logistic Regression** achieves high recall for high-risk departments, minimizing false negatives but producing more false positives.
+* **Random Forest** provides the strongest overall performance, maintaining high recall while substantially improving precision and reducing false alarms.
+* Feature importance and coefficient analysis identify violations, operational risk exposure, audit outcomes, and organizational instability as the most influential risk drivers.
 
-Placeholders:
+Result visualizations:
 
 `![Confusion Matrix](images/confusion_matrix.png)`
 `![ROC Curve](images/roc_curve.png)`
+`![Feature Importance](images/feature_importance.png)`
 `![SHAP Summary](images/shap_summary.png)`
 
 ---
@@ -153,23 +149,22 @@ Placeholders:
 
 ## **5.1 General Conclusions**
 
-The project demonstrates the potential of machine learning to support compliance risk identification. Interpretability is prioritized to help decision-makers understand key drivers of risk and use model outputs responsibly.
+This project demonstrates that machine learning can effectively support organizational compliance monitoring. While Logistic Regression offers strong interpretability, Random Forest achieves a superior balance between recall and precision, making it the preferred model in a compliance context where missed risks are costly. Interpretability analyses confirm that predictions are driven by meaningful compliance-related indicators.
 
 ---
 
 ## **5.2 Limitations and Future Work**
 
-Key limitations include the static nature of the data, potential inconsistencies in reporting across departments, and the absence of temporal trends. Future steps may include:
+Limitations include the static nature of the dataset, potential reporting inconsistencies, and the absence of temporal dynamics. Future work may include:
 
-* temporal models
-* interactive dashboards
-* integration of text-based audit reports
-* model drift monitoring
-* external validation on new datasets
+* longitudinal and temporal risk modeling
+* integration of unstructured audit text data
+* interactive dashboards for compliance monitoring
+* model drift detection and governance frameworks
+* external validation on additional organizations or time periods
 
 ---
 
 ## **5.3 Ethical and Governance Considerations**
 
-Compliance-risk prediction requires transparency, fairness, and human oversight. Predictions must not be used as automatic judgments. Interpretability tools such as SHAP will be employed to ensure responsible use and support informed decision-making.
-
+Compliance-risk prediction systems must be transparent, fair, and subject to human oversight. Model outputs are intended as decision-support tools rather than automated judgments. Interpretability techniques, including feature attribution and SHAP analysis, are employed to support responsible AI deployment and informed governance.
