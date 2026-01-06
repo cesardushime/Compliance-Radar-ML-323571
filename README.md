@@ -69,6 +69,7 @@ Feature engineering focused on preserving semantic meaning while ensuring model 
 To balance interpretability and predictive performance, the following models were implemented:
 
 * Logistic Regression
+* SVM
 * Random Forest
 
 Logistic Regression serves as a transparent baseline model, while tree-based models capture non-linear relationships and interaction effects relevant to compliance risk.
@@ -100,6 +101,11 @@ Exploratory visualizations:
 
 ![Reporting Gaps Annual By High_risk Status](images/reporting_gaps_annual_by_high_risk_status.png)
 
+* **Features Correlation**
+
+![Correlation Matrix](images/correlation_matrix_numerical_features.png)
+
+
 ---
 
 ## **2.7 Environment Reproducibility**
@@ -118,7 +124,9 @@ Models are evaluated using metrics appropriate for imbalanced classification and
 * F1-score
 * ROC-AUC
 
+This *ROC curve* comparison shows that *Random Forest* consistently dominates the ROC space, achieving the highest AUC *(0.96)* and maintaining a higher true positive rate across most false positive rates, indicating highest overall discrimination between high-risk and non-high-risk departments
 ![ROC Curve: Logistic Regression, SVM, Random Forest](image-2.png)
+
 
 ![Top 2 Models: Logistic Regression & Random Forest](images/model_performance_comparison.png)
 
@@ -135,11 +143,15 @@ Results show clear performance differences across models:
 * Feature importance and coefficient analysis identify violations, operational risk exposure, audit outcomes, and organizational instability as the most influential risk drivers.
 
 Result visualizations:
-![Correlation Matrix](images/correlation_matrix_numerical_features.png)
+
 ![Top 10 Drivers Affecting High Risk Prediction](images/top_10_features_logistic_regression.png)
 
 ![ROC Curve Analysis](images/roc_curve_logistic_regression.png)
 
+
+Random forest is selected as the final model, with Logistic Regression retained as a transparent benchmark for interpretability and governance discussions.
+
+![](images/model_performance_comparison.png)
 
 ---
 
