@@ -1,5 +1,5 @@
 
-# 📘 **Compliance Radar — Organizational Risk & Integrity Analysis**
+# **Compliance Radar — Organizational Risk & Integrity Analysis**
 
 ### *Machine Learning for Corporate Compliance Monitoring*
 
